@@ -72,6 +72,7 @@
 <wire x1="1" y1="-1" x2="1" y2="0.7" width="0.127" layer="21"/>
 <rectangle x1="1.4" y1="-0.95" x2="2.9" y2="0.65" layer="51"/>
 <rectangle x1="-2.85" y1="-0.95" x2="-1.35" y2="0.65" layer="51"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">SS34</text>
 </package>
 </packages>
 <symbols>
@@ -82,6 +83,7 @@
 <wire x1="2.54" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<text x="-0.762" y="1.524" size="1.27" layer="95">SS34</text>
 </symbol>
 </symbols>
 <devicesets>
