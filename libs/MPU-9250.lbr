@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.1">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -75,7 +76,6 @@
 <wire x1="2.12" y1="-2.12" x2="-2.12" y2="-2.12" width="0.05" layer="39"/>
 <wire x1="-2.12" y1="-2.12" x2="-2.12" y2="2.12" width="0.05" layer="39"/>
 <circle x="-2.4" y="1" radius="0.1" width="0.2" layer="21"/>
-<circle x="-1.2" y="1.1" radius="0.1" width="0.2" layer="51"/>
 <text x="-2.544409375" y="2.544409375" size="1.272209375" layer="25">&gt;NAME</text>
 <text x="-2.541240625" y="-3.811859375" size="1.27061875" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.85" y1="-0.77" x2="0.85" y2="0.77" layer="41"/>
