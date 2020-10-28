@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<eagle version="9.1.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1506,28 +1507,28 @@ grid 5.45 mm</description>
 <rectangle x1="-1.397" y1="-1.524" x2="1.397" y2="-1.143" layer="51"/>
 <rectangle x1="4.064" y1="-1.524" x2="6.858" y2="-1.143" layer="51"/>
 </package>
-<package name="TO220BV" urn="urn:adsk.eagle:footprint:29371/1">
+<package name="TO220BV" urn="urn:adsk.eagle:footprint:29371/1" locally_modified="yes">
 <description>&lt;b&gt;Molded Package&lt;/b&gt;&lt;p&gt;
 grid 2.54 mm</description>
-<wire x1="4.699" y1="-4.318" x2="4.953" y2="-4.064" width="0.1524" layer="21"/>
-<wire x1="4.699" y1="-4.318" x2="-4.699" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="-4.953" y1="-4.064" x2="-4.699" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-1.143" x2="4.953" y2="-4.064" width="0.1524" layer="21"/>
-<wire x1="-4.953" y1="-4.064" x2="-5.08" y2="-1.143" width="0.1524" layer="21"/>
-<circle x="-4.4958" y="-3.7084" radius="0.254" width="0" layer="21"/>
-<pad name="G" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<pad name="D" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<pad name="S" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<text x="-5.08" y="-6.0452" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-5.334" y1="-0.762" x2="5.334" y2="0" layer="21"/>
-<rectangle x1="-5.334" y1="-1.27" x2="-3.429" y2="-0.762" layer="21"/>
-<rectangle x1="-1.651" y1="-1.27" x2="-0.889" y2="-0.762" layer="21"/>
-<rectangle x1="-3.429" y1="-1.27" x2="-1.651" y2="-0.762" layer="51"/>
-<rectangle x1="0.889" y1="-1.27" x2="1.651" y2="-0.762" layer="21"/>
-<rectangle x1="3.429" y1="-1.27" x2="5.334" y2="-0.762" layer="21"/>
-<rectangle x1="-0.889" y1="-1.27" x2="0.889" y2="-0.762" layer="51"/>
-<rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
+<wire x1="4.699" y1="-1.778" x2="4.953" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="4.699" y1="-1.778" x2="-4.699" y2="-1.778" width="0.1524" layer="21"/>
+<wire x1="-4.953" y1="-1.524" x2="-4.699" y2="-1.778" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="1.397" x2="4.953" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-4.953" y1="-1.524" x2="-5.08" y2="1.397" width="0.1524" layer="21"/>
+<circle x="-4.4958" y="-1.1684" radius="0.254" width="0" layer="21"/>
+<pad name="G" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="D" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="S" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.08" y="-3.5052" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-5.334" y1="1.778" x2="5.334" y2="2.54" layer="21"/>
+<rectangle x1="-5.334" y1="1.27" x2="-3.429" y2="1.778" layer="21"/>
+<rectangle x1="-1.651" y1="1.27" x2="-0.889" y2="1.778" layer="21"/>
+<rectangle x1="-3.429" y1="1.27" x2="-1.651" y2="1.778" layer="51"/>
+<rectangle x1="0.889" y1="1.27" x2="1.651" y2="1.778" layer="21"/>
+<rectangle x1="3.429" y1="1.27" x2="5.334" y2="1.778" layer="21"/>
+<rectangle x1="-0.889" y1="1.27" x2="0.889" y2="1.778" layer="51"/>
+<rectangle x1="1.651" y1="1.27" x2="3.429" y2="1.778" layer="51"/>
 </package>
 <package name="RD06HVF1" urn="urn:adsk.eagle:footprint:29427/1">
 <description>&lt;b&gt;RD06HVF1&lt;/b&gt;&lt;p&gt;
@@ -4198,7 +4199,7 @@ Source: http://www.ixys.com/91529.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PNP-DARL_SYMBOL" prefix="Q" urn="urn:adsk.eagle:component:29491/1">
+<deviceset name="PNP-DARL_SYMBOL" urn="urn:adsk.eagle:component:29491/1" prefix="Q">
 <description>PNP DARLINGTON &lt;b&gt;SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="P-DAR-D" x="0" y="0"/>
@@ -4211,7 +4212,7 @@ Source: http://www.ixys.com/91529.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="N-MOSFET_SYMBOL" prefix="Q" urn="urn:adsk.eagle:component:29514/1">
+<deviceset name="N-MOSFET_SYMBOL" urn="urn:adsk.eagle:component:29514/1" prefix="Q">
 <description>N-CHANNEL MOS FET &lt;b&gt;SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MFN-D" x="0" y="0"/>
@@ -4224,7 +4225,7 @@ Source: http://www.ixys.com/91529.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NPN_SYMBOL" prefix="Q" urn="urn:adsk.eagle:component:29498/1">
+<deviceset name="NPN_SYMBOL" urn="urn:adsk.eagle:component:29498/1" prefix="Q">
 <description>NPN TRANSISTOR &lt;b&gt;SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN-D" x="0" y="0"/>
@@ -4237,7 +4238,7 @@ Source: http://www.ixys.com/91529.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PNP_SYMBOL" prefix="Q" urn="urn:adsk.eagle:component:29492/1">
+<deviceset name="PNP_SYMBOL" urn="urn:adsk.eagle:component:29492/1" prefix="Q">
 <description>PNP TRANSISTOR &lt;b&gt;SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="PNP-D" x="0" y="0"/>
@@ -4250,7 +4251,7 @@ Source: http://www.ixys.com/91529.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="P-MOSFET_SYMBOL" prefix="Q" urn="urn:adsk.eagle:component:29511/1">
+<deviceset name="P-MOSFET_SYMBOL" urn="urn:adsk.eagle:component:29511/1" prefix="Q">
 <description>P-CHANNEL MOS-FET &lt;b&gt;SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MFP-D" x="0" y="0"/>
@@ -4263,7 +4264,7 @@ Source: http://www.ixys.com/91529.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NPN-DARL_SYMBOL" prefix="Q" urn="urn:adsk.eagle:component:29489/1">
+<deviceset name="NPN-DARL_SYMBOL" urn="urn:adsk.eagle:component:29489/1" prefix="Q">
 <description>NPN DARLINGTON &lt;b&gt;SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="N-DAR-D" x="0" y="0"/>
@@ -4276,7 +4277,7 @@ Source: http://www.ixys.com/91529.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TIP2955" prefix="Q" urn="urn:adsk.eagle:component:29552/1">
+<deviceset name="TIP2955" urn="urn:adsk.eagle:component:29552/1" prefix="Q">
 <description>&lt;b&gt;PNP TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="PNP" x="0" y="0"/>
@@ -4297,7 +4298,7 @@ Source: http://www.ixys.com/91529.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TIP3055" prefix="Q" urn="urn:adsk.eagle:component:29551/1">
+<deviceset name="TIP3055" urn="urn:adsk.eagle:component:29551/1" prefix="Q">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="NPN" x="0" y="0"/>
@@ -4318,7 +4319,7 @@ Source: http://www.ixys.com/91529.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRF540" prefix="Q" urn="urn:adsk.eagle:component:29540/3">
+<deviceset name="IRF540" urn="urn:adsk.eagle:component:29540/3" prefix="Q">
 <description>&lt;b&gt;HEXFET Power MOSFET&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MFNS" x="0" y="0"/>
@@ -4339,7 +4340,7 @@ Source: http://www.ixys.com/91529.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STP5NA50" prefix="Q" urn="urn:adsk.eagle:component:29545/3">
+<deviceset name="STP5NA50" urn="urn:adsk.eagle:component:29545/3" prefix="Q">
 <description>&lt;b&gt;N-CHANNEL MOS FET&lt;/b&gt;</description>
 <gates>
 <gate name="T" symbol="MFNS" x="0" y="0"/>
@@ -4360,7 +4361,7 @@ Source: http://www.ixys.com/91529.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRF530" prefix="Q" urn="urn:adsk.eagle:component:29542/3">
+<deviceset name="IRF530" urn="urn:adsk.eagle:component:29542/3" prefix="Q">
 <description>&lt;b&gt;HEXFET Power MOSFET&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MFNS" x="0" y="0"/>
@@ -4381,7 +4382,7 @@ Source: http://www.ixys.com/91529.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRF9530" prefix="Q" urn="urn:adsk.eagle:component:29544/3">
+<deviceset name="IRF9530" urn="urn:adsk.eagle:component:29544/3" prefix="Q">
 <description>&lt;b&gt;P-CHANNEL HEXFET POWER-MOS-FET&lt;/b&gt;&lt;p&gt;
 Source: http://www.irf.com/product-info/datasheets/data/irf9530.pdf</description>
 <gates>
@@ -4403,7 +4404,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irf9530.pdf</description
 </device>
 </devices>
 </deviceset>
-<deviceset name="RD15HVF1" prefix="Q" urn="urn:adsk.eagle:component:29596/2">
+<deviceset name="RD15HVF1" urn="urn:adsk.eagle:component:29596/2" prefix="Q">
 <description>&lt;b&gt;RF Power MOSFET Transistor 175MHz15W 520MHz,15W&lt;/b&gt;&lt;p&gt;
 Source: MITSUBISHI .. RD15HVF1   a.pdf</description>
 <gates>
@@ -4425,7 +4426,7 @@ Source: MITSUBISHI .. RD15HVF1   a.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRF512" prefix="Q" urn="urn:adsk.eagle:component:29543/3">
+<deviceset name="IRF512" urn="urn:adsk.eagle:component:29543/3" prefix="Q">
 <description>&lt;b&gt;N-CHANNEL MOS FET&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="MFN" x="0" y="0"/>
@@ -4446,7 +4447,7 @@ Source: MITSUBISHI .. RD15HVF1   a.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RD06HVF1" prefix="Q" urn="urn:adsk.eagle:component:29595/2">
+<deviceset name="RD06HVF1" urn="urn:adsk.eagle:component:29595/2" prefix="Q">
 <description>&lt;b&gt;RF Power MOSFET Transistor 175MHz,6W&lt;/b&gt;&lt;p&gt;
 Source: MITSUBISHI .. rd06hvf1.pdf</description>
 <gates>
@@ -4468,7 +4469,7 @@ Source: MITSUBISHI .. rd06hvf1.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRLZ44Z" prefix="Q" urn="urn:adsk.eagle:component:29572/1">
+<deviceset name="IRLZ44Z" urn="urn:adsk.eagle:component:29572/1" prefix="Q">
 <description>&lt;b&gt;N-Channel HEXFET® Power MOSFET&lt;/b&gt; Logic Level&lt;p&gt;
  AUTOMOTIVE MOSFET&lt;br&gt;
 Source: http://www.irf.com/product-info/datasheets/data/irlz44zpbf.pdf</description>
@@ -4491,7 +4492,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irlz44zpbf.pdf</descript
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRF520" prefix="Q" urn="urn:adsk.eagle:component:29539/3">
+<deviceset name="IRF520" urn="urn:adsk.eagle:component:29539/3" prefix="Q">
 <description>&lt;b&gt;HEXFET Power MOSFET&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MFNS" x="0" y="0"/>
@@ -4512,7 +4513,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irlz44zpbf.pdf</descript
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRFI540NPBF" prefix="Q" urn="urn:adsk.eagle:component:29570/1">
+<deviceset name="IRFI540NPBF" urn="urn:adsk.eagle:component:29570/1" prefix="Q">
 <description>&lt;b&gt;HEXFET Power MOISFET&lt;/b&gt;&lt;p&gt;
 VDSS = 100V, RDS(on) = 0.052 Ohm, ID = 20A, VGS(th) = 2.0 -- 4.0V&lt;br&gt;
 
@@ -4536,7 +4537,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irfi540npbf.pdf</descrip
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRF4905" prefix="Q" urn="urn:adsk.eagle:component:29571/1">
+<deviceset name="IRF4905" urn="urn:adsk.eagle:component:29571/1" prefix="Q">
 <description>&lt;b&gt;P-Channel HEXFET® Power MOSFET&lt;/b&gt;&lt;p&gt;
 RDS(on)= 0.02 Ohm, ID = -74A&lt;br&gt;
 Source: http://www.irf.com/product-info/datasheets/data/irf4905pbf.pdf</description>
@@ -4559,7 +4560,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irf4905pbf.pdf</descript
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRFZ48" prefix="Q" urn="urn:adsk.eagle:component:29573/1">
+<deviceset name="IRFZ48" urn="urn:adsk.eagle:component:29573/1" prefix="Q">
 <description>&lt;b&gt;N Channel HEXFET® Power MOSFET&lt;/b&gt; Logic Level&lt;p&gt;
 Source: http://www.irf.com/product-info/datasheets/data/irfz48z.pdf</description>
 <gates>
@@ -4581,7 +4582,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irfz48z.pdf</description
 </device>
 </devices>
 </deviceset>
-<deviceset name="BUZ11" prefix="Q" urn="urn:adsk.eagle:component:29567/3">
+<deviceset name="BUZ11" urn="urn:adsk.eagle:component:29567/3" prefix="Q">
 <description>&lt;b&gt;N-CHANNEL MOS FET&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="MFN" x="0" y="0"/>
@@ -4615,7 +4616,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irfz48z.pdf</description
 </device>
 </devices>
 </deviceset>
-<deviceset name="PMOSFET_N" prefix="Q" uservalue="yes" urn="urn:adsk.eagle:component:29568/3">
+<deviceset name="PMOSFET_N" urn="urn:adsk.eagle:component:29568/3" prefix="Q" uservalue="yes">
 <description>&lt;b&gt;Power MOSFET N-Channel&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MFN" x="0" y="0"/>
@@ -4649,7 +4650,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irfz48z.pdf</description
 </device>
 </devices>
 </deviceset>
-<deviceset name="PMOSFET_P" prefix="Q" uservalue="yes" urn="urn:adsk.eagle:component:29569/3">
+<deviceset name="PMOSFET_P" urn="urn:adsk.eagle:component:29569/3" prefix="Q" uservalue="yes">
 <description>&lt;b&gt;Power MOSFET P-Channel&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MFP" x="0" y="0"/>
@@ -4683,7 +4684,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irfz48z.pdf</description
 </device>
 </devices>
 </deviceset>
-<deviceset name="P-MOSFET-SO8" prefix="Q" uservalue="yes" urn="urn:adsk.eagle:component:29577/3">
+<deviceset name="P-MOSFET-SO8" urn="urn:adsk.eagle:component:29577/3" prefix="Q" uservalue="yes">
 <description>&lt;b&gt;P-Channel MOSFET&lt;/b&gt;&lt;p&gt;
 Example:&lt;br&gt;
 FDS4435A; P-Channel Logic Level PowerTrench® MOSFET&lt;br&gt;
@@ -4708,7 +4709,7 @@ Source: www.fairchildsemi.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRF740" prefix="Q" urn="urn:adsk.eagle:component:29541/3">
+<deviceset name="IRF740" urn="urn:adsk.eagle:component:29541/3" prefix="Q">
 <description>&lt;b&gt;N-CHANNEL MOS FET&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MFNS" x="0" y="0"/>
@@ -4729,7 +4730,7 @@ Source: www.fairchildsemi.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="N-MOSFET-SO8" prefix="Q" uservalue="yes" urn="urn:adsk.eagle:component:29576/3">
+<deviceset name="N-MOSFET-SO8" urn="urn:adsk.eagle:component:29576/3" prefix="Q" uservalue="yes">
 <description>&lt;b&gt;N-Channel MOSFET&lt;/b&gt;&lt;p&gt;
 Example:&lt;br&gt;
 FDS7760A; N-Channel Logic Level PowerTrench® MOSFET&lt;br&gt;
@@ -4754,7 +4755,7 @@ Source: www.fairchildsemi.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD680L" prefix="Q" urn="urn:adsk.eagle:component:29591/1">
+<deviceset name="BD680L" urn="urn:adsk.eagle:component:29591/1" prefix="Q">
 <description>&lt;b&gt;PNP DARLINGTON TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="P-DAR" x="0" y="0"/>
@@ -4775,7 +4776,7 @@ Source: www.fairchildsemi.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRF8313P" prefix="Q" urn="urn:adsk.eagle:component:29578/3">
+<deviceset name="IRF8313P" urn="urn:adsk.eagle:component:29578/3" prefix="Q">
 <description>&lt;b&gt;HEXFET(R) Power MOSFET&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.irf.com/product-info/datasheets/data/irf8313pbf.pdf"&gt; Data sheet &lt;/a&gt;</description>
 <gates>
@@ -4801,7 +4802,7 @@ Source: &lt;a href="http://www.irf.com/product-info/datasheets/data/irf8313pbf.p
 </device>
 </devices>
 </deviceset>
-<deviceset name="IXLF_19N250" prefix="Q" urn="urn:adsk.eagle:component:29584/1">
+<deviceset name="IXLF_19N250" urn="urn:adsk.eagle:component:29584/1" prefix="Q">
 <description>&lt;b&gt;High Voltage IGBT&lt;/b&gt; High Voltage ISOPLUS i4-PAC(TM)&lt;p&gt;
 Source: http://www.ixys.com/l414.pdf</description>
 <gates>
@@ -4823,7 +4824,7 @@ Source: http://www.ixys.com/l414.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BSC340N08NS3G" prefix="Q" urn="urn:adsk.eagle:component:29599/1">
+<deviceset name="BSC340N08NS3G" urn="urn:adsk.eagle:component:29599/1" prefix="Q">
 <description>&lt;b&gt;OptiMOS TM 3 Power-Transistor&lt;/b&gt;&lt;p&gt;
 BSC340N08NS3 G&lt;br&gt;
 Source: &lt;a href="http://www.infineon.com/dgdl/BSC340N08NS3G_rev2.4.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&amp;fileId=db3a30431add1d95011ae81c21f2563a"&gt; Data sheet &lt;/a&gt;</description>
@@ -4848,7 +4849,7 @@ Source: &lt;a href="http://www.infineon.com/dgdl/BSC340N08NS3G_rev2.4.pdf?folder
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRFPC40" prefix="Q" urn="urn:adsk.eagle:component:29566/1">
+<deviceset name="IRFPC40" urn="urn:adsk.eagle:component:29566/1" prefix="Q">
 <description>&lt;b&gt;N-CHANNEL MOS FET&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="MFNS" x="0" y="0"/>
@@ -4869,7 +4870,7 @@ Source: &lt;a href="http://www.infineon.com/dgdl/BSC340N08NS3G_rev2.4.pdf?folder
 </device>
 </devices>
 </deviceset>
-<deviceset name="BSZ105N04NS" prefix="Q" urn="urn:adsk.eagle:component:29600/1">
+<deviceset name="BSZ105N04NS" urn="urn:adsk.eagle:component:29600/1" prefix="Q">
 <description>&lt;b&gt;OptiMOS (TM)3 Power-Transistor&lt;/b&gt; N-Channel, Normal level&lt;p&gt;
 Source : &lt;a href="http://www.infineon.com/dgdl/BSZ105N04NSG_rev1.1.pdf?folderId=db3a3043156fd5730115c7d50620107c&amp;fileId=db3a30431689f4420116c485c67f084e"&gt; Data sheet &lt;/a&gt;</description>
 <gates>
@@ -4891,7 +4892,7 @@ Source : &lt;a href="http://www.infineon.com/dgdl/BSZ105N04NSG_rev1.1.pdf?folder
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRLML5203" prefix="Q" urn="urn:adsk.eagle:component:29586/2">
+<deviceset name="IRLML5203" urn="urn:adsk.eagle:component:29586/2" prefix="Q">
 <description>&lt;b&gt;HEXFET P-Channel Power MOSFET&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MFPS" x="0" y="0"/>
@@ -4912,7 +4913,7 @@ Source : &lt;a href="http://www.infineon.com/dgdl/BSZ105N04NSG_rev1.1.pdf?folder
 </device>
 </devices>
 </deviceset>
-<deviceset name="BF871" prefix="Q" urn="urn:adsk.eagle:component:29564/1">
+<deviceset name="BF871" urn="urn:adsk.eagle:component:29564/1" prefix="Q">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="P" symbol="NPN" x="0" y="0"/>
@@ -4933,7 +4934,7 @@ Source : &lt;a href="http://www.infineon.com/dgdl/BSZ105N04NSG_rev1.1.pdf?folder
 </device>
 </devices>
 </deviceset>
-<deviceset name="BF872" prefix="Q" urn="urn:adsk.eagle:component:29565/1">
+<deviceset name="BF872" urn="urn:adsk.eagle:component:29565/1" prefix="Q">
 <description>&lt;b&gt;PNP TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="P" symbol="PNP" x="0" y="0"/>
@@ -4954,7 +4955,7 @@ Source : &lt;a href="http://www.infineon.com/dgdl/BSZ105N04NSG_rev1.1.pdf?folder
 </device>
 </devices>
 </deviceset>
-<deviceset name="ST*60N10" prefix="Q" urn="urn:adsk.eagle:component:29601/1">
+<deviceset name="ST*60N10" urn="urn:adsk.eagle:component:29601/1" prefix="Q">
 <description>&lt;b&gt;N - CHANNEL ENHANCEMENT MODE POWER MOS TRANSISTOR&lt;/b&gt;&lt;p&gt;
 Source: SGS-THOMSON .. STW60N10  1.pdf</description>
 <gates>
@@ -5002,7 +5003,7 @@ Source: SGS-THOMSON .. STW60N10  1.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRFP25*" prefix="Q" urn="urn:adsk.eagle:component:29582/1">
+<deviceset name="IRFP25*" urn="urn:adsk.eagle:component:29582/1" prefix="Q">
 <description>&lt;b&gt;33A/27A, 200V/150V, 0.085/0.012 Ohm, N-Channel Power MOSFET&lt;/b&gt;&lt;p&gt;
 Source: Fairchild Semiconductor Corporation</description>
 <gates>
@@ -5027,7 +5028,7 @@ Source: Fairchild Semiconductor Corporation</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BTS5215L" prefix="Q" urn="urn:adsk.eagle:component:29603/1">
+<deviceset name="BTS5215L" urn="urn:adsk.eagle:component:29603/1" prefix="Q">
 <description>&lt;b&gt;Smart High-Side Power Switch Two Channels: 2 x 90mΩ&lt;/b&gt;&lt;p&gt;
 Source: BTS5215L.pdf</description>
 <gates>
@@ -5055,7 +5056,7 @@ Source: BTS5215L.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FDS6890A" prefix="Q" urn="urn:adsk.eagle:component:29605/2">
+<deviceset name="FDS6890A" urn="urn:adsk.eagle:component:29605/2" prefix="Q">
 <description>&lt;b&gt;Dual N-Channel 2.5V Specified PowerTrenchTM MOSFET&lt;/b&gt;&lt;p&gt;
 Source: FDS6890A.pdf</description>
 <gates>
@@ -5081,7 +5082,7 @@ Source: FDS6890A.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MJE2955" prefix="Q" urn="urn:adsk.eagle:component:29557/2">
+<deviceset name="MJE2955" urn="urn:adsk.eagle:component:29557/2" prefix="Q">
 <description>&lt;b&gt;PNP TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="PNP" x="0" y="0"/>
@@ -5102,7 +5103,7 @@ Source: FDS6890A.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TIP42C" prefix="Q" urn="urn:adsk.eagle:component:29556/2">
+<deviceset name="TIP42C" urn="urn:adsk.eagle:component:29556/2" prefix="Q">
 <description>&lt;b&gt;PNP TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="PNP" x="0" y="0"/>
@@ -5123,7 +5124,7 @@ Source: FDS6890A.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MJE3055" prefix="Q" urn="urn:adsk.eagle:component:29558/2">
+<deviceset name="MJE3055" urn="urn:adsk.eagle:component:29558/2" prefix="Q">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="NPN" x="0" y="0"/>
@@ -5144,7 +5145,7 @@ Source: FDS6890A.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TIP41C" prefix="Q" urn="urn:adsk.eagle:component:29555/2">
+<deviceset name="TIP41C" urn="urn:adsk.eagle:component:29555/2" prefix="Q">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="NPN" x="0" y="0"/>
@@ -5165,7 +5166,7 @@ Source: FDS6890A.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TIP125" prefix="Q" urn="urn:adsk.eagle:component:29560/1">
+<deviceset name="TIP125" urn="urn:adsk.eagle:component:29560/1" prefix="Q">
 <description>&lt;b&gt;PNP DARLINGTON TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="P-DAR" x="0" y="0"/>
@@ -5186,7 +5187,7 @@ Source: FDS6890A.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MIC4429" prefix="IC" urn="urn:adsk.eagle:component:29590/5">
+<deviceset name="MIC4429" urn="urn:adsk.eagle:component:29590/5" prefix="IC">
 <description>&lt;b&gt;6A-Peak Low-Side MOSFET Driver (INVERTED)&lt;/b&gt; Bipolar/CMOS/DMOS Process&lt;p&gt;
 http://www.micrel.com/_PDF/mic4420.pdf</description>
 <gates>
@@ -5246,7 +5247,7 @@ http://www.micrel.com/_PDF/mic4420.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TIP120" prefix="Q" urn="urn:adsk.eagle:component:29559/1">
+<deviceset name="TIP120" urn="urn:adsk.eagle:component:29559/1" prefix="Q">
 <description>&lt;b&gt;NPN DARLINGTON TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="N-DAR" x="0" y="0"/>
@@ -5267,7 +5268,7 @@ http://www.micrel.com/_PDF/mic4420.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SI3481DV" prefix="Q" urn="urn:adsk.eagle:component:29604/2">
+<deviceset name="SI3481DV" urn="urn:adsk.eagle:component:29604/2" prefix="Q">
 <description>&lt;b&gt;P-Channel 30-V (D-S) MOSFET&lt;/b&gt;&lt;p&gt;
 Source:  http://www.vishay.com/docs/72105/72105.pdf&lt;br&gt;</description>
 <gates>
@@ -5289,7 +5290,7 @@ Source:  http://www.vishay.com/docs/72105/72105.pdf&lt;br&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MFR4*" prefix="Q" urn="urn:adsk.eagle:component:29561/2">
+<deviceset name="MFR4*" urn="urn:adsk.eagle:component:29561/2" prefix="Q">
 <description>&lt;b&gt;NPN RF Power Transistor&lt;/b&gt;&lt;p&gt;
 Source: Motorola - MRF475.pdf</description>
 <gates>
@@ -5328,7 +5329,7 @@ Source: Motorola - MRF475.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DE?X*" prefix="Q" urn="urn:adsk.eagle:component:29587/1">
+<deviceset name="DE?X*" urn="urn:adsk.eagle:component:29587/1" prefix="Q">
 <description>&lt;b&gt;RF Power MOSFET&lt;/b&gt; Common Source Push-Pull Pair&lt;p&gt;
 N-Channel Enhancement Mode&lt;br&gt;
 Source: &lt;a href="http://ixysrf.com/pdf/switch_mode/de275x2_501n16a.pdf"&gt; Data sheet &lt;/a&gt;</description>
@@ -5356,7 +5357,7 @@ Source: &lt;a href="http://ixysrf.com/pdf/switch_mode/de275x2_501n16a.pdf"&gt; D
 </device>
 </devices>
 </deviceset>
-<deviceset name="MIC4420" prefix="IC" urn="urn:adsk.eagle:component:29589/5">
+<deviceset name="MIC4420" urn="urn:adsk.eagle:component:29589/5" prefix="IC">
 <description>&lt;b&gt;6A-Peak Low-Side MOSFET Driver&lt;/b&gt; Bipolar/CMOS/DMOS Process&lt;p&gt;
 http://www.micrel.com/_PDF/mic4420.pdf</description>
 <gates>
@@ -5416,7 +5417,7 @@ http://www.micrel.com/_PDF/mic4420.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD680" prefix="Q" urn="urn:adsk.eagle:component:29538/1">
+<deviceset name="BD680" urn="urn:adsk.eagle:component:29538/1" prefix="Q">
 <description>&lt;b&gt;PNP DARLINGTON TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="P-DAR" x="0" y="0"/>
@@ -5437,7 +5438,7 @@ http://www.micrel.com/_PDF/mic4420.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD438" prefix="Q" urn="urn:adsk.eagle:component:29535/1">
+<deviceset name="BD438" urn="urn:adsk.eagle:component:29535/1" prefix="Q">
 <description>&lt;b&gt;PNP TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="PNP" x="0" y="0"/>
@@ -5458,7 +5459,7 @@ http://www.micrel.com/_PDF/mic4420.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD437" prefix="Q" urn="urn:adsk.eagle:component:29533/1">
+<deviceset name="BD437" urn="urn:adsk.eagle:component:29533/1" prefix="Q">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="NPN" x="0" y="0"/>
@@ -5479,7 +5480,7 @@ http://www.micrel.com/_PDF/mic4420.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PSMN013-30MLC" prefix="Q" urn="urn:adsk.eagle:component:29606/1">
+<deviceset name="PSMN013-30MLC" urn="urn:adsk.eagle:component:29606/1" prefix="Q">
 <description>&lt;b&gt;N-channel 30 V 13.6 mΩ logic level MOSFET&lt;/b&gt;&lt;p&gt;
 NextPower Technology&lt;br&gt;
 Source: &lt;a href="http://www.nxp.com/documents/data_sheet/PSMN013-30MLC.pdf"&gt; Data sheet &lt;/a&gt;&lt;br&gt;
@@ -5508,7 +5509,7 @@ PSMN013-30MLC © NXP B.V. 2012. All rights reserved.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD140" prefix="Q" urn="urn:adsk.eagle:component:29536/1">
+<deviceset name="BD140" urn="urn:adsk.eagle:component:29536/1" prefix="Q">
 <description>&lt;b&gt;PNP TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="PNP" x="0" y="0"/>
@@ -5529,7 +5530,7 @@ PSMN013-30MLC © NXP B.V. 2012. All rights reserved.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BU208" prefix="Q" urn="urn:adsk.eagle:component:29550/2">
+<deviceset name="BU208" urn="urn:adsk.eagle:component:29550/2" prefix="Q">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN" x="0" y="0"/>
@@ -5550,7 +5551,7 @@ PSMN013-30MLC © NXP B.V. 2012. All rights reserved.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N3055" prefix="Q" urn="urn:adsk.eagle:component:29546/2">
+<deviceset name="2N3055" urn="urn:adsk.eagle:component:29546/2" prefix="Q">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN" x="0" y="0"/>
@@ -5571,7 +5572,7 @@ PSMN013-30MLC © NXP B.V. 2012. All rights reserved.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD679" prefix="Q" urn="urn:adsk.eagle:component:29537/1">
+<deviceset name="BD679" urn="urn:adsk.eagle:component:29537/1" prefix="Q">
 <description>&lt;b&gt;NPN DARLINGTON TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="N-DAR" x="0" y="0"/>
@@ -5592,7 +5593,7 @@ PSMN013-30MLC © NXP B.V. 2012. All rights reserved.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MJ2955" prefix="Q" urn="urn:adsk.eagle:component:29549/2">
+<deviceset name="MJ2955" urn="urn:adsk.eagle:component:29549/2" prefix="Q">
 <description>&lt;b&gt;PNP TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="PNP" x="0" y="0"/>
@@ -5613,7 +5614,7 @@ PSMN013-30MLC © NXP B.V. 2012. All rights reserved.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD139" prefix="Q" urn="urn:adsk.eagle:component:29534/1">
+<deviceset name="BD139" urn="urn:adsk.eagle:component:29534/1" prefix="Q">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="NPN" x="0" y="0"/>
@@ -5634,7 +5635,7 @@ PSMN013-30MLC © NXP B.V. 2012. All rights reserved.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BDX63" prefix="Q" urn="urn:adsk.eagle:component:29547/2">
+<deviceset name="BDX63" urn="urn:adsk.eagle:component:29547/2" prefix="Q">
 <description>&lt;b&gt;NPN DARLINGTON TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="N-DAR" x="0" y="0"/>
@@ -5655,7 +5656,7 @@ PSMN013-30MLC © NXP B.V. 2012. All rights reserved.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="P3N100XI" prefix="Q" urn="urn:adsk.eagle:component:29562/1">
+<deviceset name="P3N100XI" urn="urn:adsk.eagle:component:29562/1" prefix="Q">
 <description>&lt;b&gt;N-CHANNEL MOS FET&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="MFN" x="0" y="0"/>
@@ -5676,7 +5677,7 @@ PSMN013-30MLC © NXP B.V. 2012. All rights reserved.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DE*" prefix="Q" urn="urn:adsk.eagle:component:29597/1">
+<deviceset name="DE*" urn="urn:adsk.eagle:component:29597/1" prefix="Q">
 <description>&lt;b&gt;RF Power MOSFET&lt;/b&gt; DE-SERIES&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.ixysrf.com/pdf/switch_mode/appnotes/2de_series_intro.pdf"&gt; Data sheet &lt;/a&gt;&lt;br&gt;
 &amp;lt;www.directedenergy.com&amp;gt;</description>
@@ -5711,7 +5712,7 @@ Source: &lt;a href="http://www.ixysrf.com/pdf/switch_mode/appnotes/2de_series_in
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRFP240" prefix="Q" urn="urn:adsk.eagle:component:29575/1">
+<deviceset name="IRFP240" urn="urn:adsk.eagle:component:29575/1" prefix="Q">
 <description>&lt;b&gt;HEXFET Power MosFet&lt;/b&gt;&lt;p&gt;
 Source: http://www.irf.com/</description>
 <gates>
@@ -5746,7 +5747,7 @@ Source: http://www.irf.com/</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TIP142" prefix="Q" urn="urn:adsk.eagle:component:29553/1">
+<deviceset name="TIP142" urn="urn:adsk.eagle:component:29553/1" prefix="Q">
 <description>&lt;b&gt;NPN DARLINGTON TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="N-DAR" x="0" y="0"/>
@@ -5767,7 +5768,7 @@ Source: http://www.irf.com/</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TIP147" prefix="Q" urn="urn:adsk.eagle:component:29554/1">
+<deviceset name="TIP147" urn="urn:adsk.eagle:component:29554/1" prefix="Q">
 <description>&lt;b&gt;PNP DARLINGTON TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="P-DAR" x="0" y="0"/>
@@ -5788,7 +5789,7 @@ Source: http://www.irf.com/</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PH7030L" prefix="Q" urn="urn:adsk.eagle:component:29588/1">
+<deviceset name="PH7030L" urn="urn:adsk.eagle:component:29588/1" prefix="Q">
 <description>&lt;b&gt;N-channel TrenchMOS (TM) logic level FET&lt;/b&gt;&lt;p&gt;
 Source: http://www.nxp.com/acrobat_download/datasheets/PH7030L_4.pdf</description>
 <gates>
@@ -5812,7 +5813,7 @@ Source: http://www.nxp.com/acrobat_download/datasheets/PH7030L_4.pdf</descriptio
 </device>
 </devices>
 </deviceset>
-<deviceset name="BDX64" prefix="Q" urn="urn:adsk.eagle:component:29548/2">
+<deviceset name="BDX64" urn="urn:adsk.eagle:component:29548/2" prefix="Q">
 <description>&lt;b&gt;PNP DARLINGTON TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="P-DAR" x="0" y="0"/>
@@ -5833,7 +5834,7 @@ Source: http://www.nxp.com/acrobat_download/datasheets/PH7030L_4.pdf</descriptio
 </device>
 </devices>
 </deviceset>
-<deviceset name="NTHD3101F" prefix="Q" urn="urn:adsk.eagle:component:29592/1">
+<deviceset name="NTHD3101F" urn="urn:adsk.eagle:component:29592/1" prefix="Q">
 <description>&lt;b&gt;Power MOSFET and Schottky Diode&lt;/b&gt;&lt;p&gt;
 -20 V, FETKY (TM), P-Channel, 4.4 A, with 4.1 A Schottky Barrier Diode, ChipFET (TM)&lt;br&gt;
 Source: http://www.onsemi.com/pub/Collateral/NTHD3101F-D.PDF</description>
@@ -5859,7 +5860,7 @@ Source: http://www.onsemi.com/pub/Collateral/NTHD3101F-D.PDF</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRG4BC15UD-" prefix="Q" uservalue="yes" urn="urn:adsk.eagle:component:29579/3">
+<deviceset name="IRG4BC15UD-" urn="urn:adsk.eagle:component:29579/3" prefix="Q" uservalue="yes">
 <description>&lt;b&gt;INSULATED GATE BIPOLAR TRANSISTOR&lt;/b&gt;&lt;p&gt;
  WITH ULTRAFAST SOFT RECOVERY DIODE</description>
 <gates>
@@ -5907,7 +5908,7 @@ Source: http://www.onsemi.com/pub/Collateral/NTHD3101F-D.PDF</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRF3704" prefix="Q" urn="urn:adsk.eagle:component:29580/3">
+<deviceset name="IRF3704" urn="urn:adsk.eagle:component:29580/3" prefix="Q">
 <description>&lt;b&gt;SMPS MOSFET&lt;/b&gt;&lt;p&gt;
 HEXFET® Power MOSFET&lt;br&gt;
 Source: http://www.irf.com/product-info/datasheets/data/irf3704.pdf</description>
@@ -5982,7 +5983,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irf3704.pdf</description
 </device>
 </devices>
 </deviceset>
-<deviceset name="N-HEXFET-2D_?-*" prefix="Q" urn="urn:adsk.eagle:component:29594/2">
+<deviceset name="N-HEXFET-2D_?-*" urn="urn:adsk.eagle:component:29594/2" prefix="Q">
 <description>&lt;b&gt;HEXFET® Power MOSFET&lt;/b&gt; 2 Drain connects&lt;p&gt;
 http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <gates>
@@ -6006,7 +6007,7 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IXG?*N170" prefix="Q" urn="urn:adsk.eagle:component:29583/1">
+<deviceset name="IXG?*N170" urn="urn:adsk.eagle:component:29583/1" prefix="Q">
 <description>&lt;b&gt;High Voltage IGBT&lt;/b&gt;&lt;p&gt;
 Source: http://www.ixys.com/98989.pdf</description>
 <gates>
@@ -6032,7 +6033,7 @@ Source: http://www.ixys.com/98989.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="N-HEXFET_?-*" prefix="Q" urn="urn:adsk.eagle:component:29593/2">
+<deviceset name="N-HEXFET_?-*" urn="urn:adsk.eagle:component:29593/2" prefix="Q">
 <description>&lt;p&gt;HEXFET® Power MOSFET&lt;/b&gt;&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="HEXFET_N" x="0" y="0"/>
@@ -6055,7 +6056,7 @@ Source: http://www.ixys.com/98989.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FDN360P" prefix="Q" urn="urn:adsk.eagle:component:29602/2">
+<deviceset name="FDN360P" urn="urn:adsk.eagle:component:29602/2" prefix="Q">
 <description>&lt;b&gt;Single P-Channel, PowerTrench (R) MOSFET&lt;/b&gt;&lt;p&gt;
 Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 <gates>
@@ -6077,7 +6078,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="P3N100FI" prefix="Q" urn="urn:adsk.eagle:component:29563/1">
+<deviceset name="P3N100FI" urn="urn:adsk.eagle:component:29563/1" prefix="Q">
 <description>&lt;b&gt;N-CHANNEL MOS FET&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="MFN" x="0" y="0"/>
@@ -6098,7 +6099,7 @@ Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IXF?6N*" prefix="Q" urn="urn:adsk.eagle:component:29585/2">
+<deviceset name="IXF?6N*" urn="urn:adsk.eagle:component:29585/2" prefix="Q">
 <description>&lt;b&gt;HiPerFET (TM)  Power MOSFET&lt;/b&gt;&lt;p&gt;
 N-Channel Enhancement Mode HDMOS Family&lt;br&gt;
 Source: http://www.ixys.com/91529.pdf</description>
@@ -6150,7 +6151,7 @@ Source: http://www.ixys.com/91529.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRF?5305" prefix="Q" urn="urn:adsk.eagle:component:29574/2">
+<deviceset name="IRF?5305" urn="urn:adsk.eagle:component:29574/2" prefix="Q">
 <description>&lt;b&gt;HEXFET Power MOSFET&lt;/b&gt;&lt;p&gt;
 Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</description>
 <gates>
@@ -6185,7 +6186,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRF6648" prefix="Q" urn="urn:adsk.eagle:component:29598/1">
+<deviceset name="IRF6648" urn="urn:adsk.eagle:component:29598/1" prefix="Q">
 <description>&lt;b&gt;DirectFET Power MOSFET&lt;/b&gt;&lt;p&gt;
 Source: http://www.irf.com/product-info/datasheets/data/irf6648.pdf</description>
 <gates>
@@ -6207,7 +6208,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irf6648.pdf</description
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRFV460" prefix="Q" urn="urn:adsk.eagle:component:29581/1">
+<deviceset name="IRFV460" urn="urn:adsk.eagle:component:29581/1" prefix="Q">
 <description>&lt;b&gt;HEXFET N-Channel Transistor</description>
 <gates>
 <gate name="G$1" symbol="MFNS" x="0" y="0"/>
