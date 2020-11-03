@@ -73,7 +73,7 @@
 </layers>
 <library>
 <packages>
-<package name="SOP50P49">
+<package name="VSSOP(10)">
 <circle x="-3.5" y="1.25" radius="0.1" width="0.2" layer="21"/>
 <circle x="-3.5" y="1.25" radius="0.1" width="0.2" layer="51"/>
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
@@ -121,12 +121,12 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DC-DC">
+<deviceset name="LM3481">
 <gates>
 <gate name="G$1" symbol="LM3481" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOP50P49">
+<device name="" package="VSSOP(10)">
 <connects>
 <connect gate="G$1" pin="AGND" pad="5"/>
 <connect gate="G$1" pin="COMP" pad="3"/>
