@@ -1420,7 +1420,7 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1X1">
+<deviceset name="1X1" prefix="X1">
 <gates>
 <gate name="G$1" symbol="CONN_01" x="0" y="0"/>
 </gates>
@@ -1435,7 +1435,7 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="1X2">
+<deviceset name="1X2" prefix="X1">
 <gates>
 <gate name="G$1" symbol="CONN_02" x="0" y="0"/>
 </gates>
@@ -1478,7 +1478,7 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="1X3">
+<deviceset name="1X3" prefix="X1">
 <gates>
 <gate name="G$1" symbol="CONN_03" x="0" y="0"/>
 </gates>
@@ -1525,7 +1525,7 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="1X4">
+<deviceset name="1X4" prefix="X1">
 <gates>
 <gate name="G$1" symbol="CONN_04" x="5.08" y="0"/>
 </gates>
@@ -1576,7 +1576,7 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="1X5">
+<deviceset name="1X5" prefix="X1">
 <gates>
 <gate name="G$1" symbol="CONN_05" x="5.08" y="0"/>
 </gates>
@@ -1631,7 +1631,7 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="1X6">
+<deviceset name="1X6" prefix="X1">
 <gates>
 <gate name="G$1" symbol="CONN_06" x="2.54" y="0"/>
 </gates>
@@ -1690,7 +1690,7 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="1X7">
+<deviceset name="1X7" prefix="X1">
 <gates>
 <gate name="G$1" symbol="CONN_07" x="5.08" y="0"/>
 </gates>
@@ -1753,7 +1753,7 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="1X8">
+<deviceset name="1X8" prefix="X1">
 <gates>
 <gate name="G$1" symbol="CONN_08" x="5.08" y="0"/>
 </gates>
@@ -1820,7 +1820,7 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="1X9">
+<deviceset name="1X9" prefix="X1">
 <gates>
 <gate name="G$1" symbol="CONN_09" x="5.08" y="0"/>
 </gates>
@@ -1891,7 +1891,7 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="1X10">
+<deviceset name="1X10" prefix="X1">
 <gates>
 <gate name="G$1" symbol="CONN_10" x="5.08" y="0"/>
 </gates>

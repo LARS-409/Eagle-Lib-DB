@@ -245,27 +245,6 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <rectangle x1="-1.5" y1="1.25" x2="-0.75" y2="1.75" layer="21"/>
 <rectangle x1="-1.5" y1="-1.75" x2="-0.75" y2="-1.25" layer="21"/>
 </package>
-<package name="SOT95P230X110-3N">
-<wire x1="0.65" y1="1.45" x2="0.65" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="0.65" y1="-1.45" x2="-0.65" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="-0.65" y1="-1.45" x2="-0.65" y2="1.45" width="0.127" layer="51"/>
-<wire x1="-0.65" y1="1.45" x2="0.65" y2="1.45" width="0.127" layer="51"/>
-<wire x1="0.65" y1="1.559" x2="-0.65" y2="1.559" width="0.127" layer="21"/>
-<wire x1="0.65" y1="-1.559" x2="-0.65" y2="-1.559" width="0.127" layer="21"/>
-<wire x1="1.86" y1="1.7" x2="1.86" y2="-1.7" width="0.05" layer="39"/>
-<wire x1="1.86" y1="-1.7" x2="-1.86" y2="-1.7" width="0.05" layer="39"/>
-<wire x1="-1.86" y1="-1.7" x2="-1.86" y2="1.7" width="0.05" layer="39"/>
-<wire x1="-1.86" y1="1.7" x2="1.86" y2="1.7" width="0.05" layer="39"/>
-<text x="-2" y="2" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-2" y="-2" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
-<circle x="-2.25" y="0.95" radius="0.1" width="0.2" layer="21"/>
-<circle x="-2.25" y="0.95" radius="0.1" width="0.2" layer="51"/>
-<wire x1="0.65" y1="1.559" x2="0.65" y2="0.61" width="0.127" layer="21"/>
-<wire x1="0.65" y1="-1.559" x2="0.65" y2="-0.61" width="0.127" layer="21"/>
-<smd name="1" x="-0.98" y="0.95" dx="1.26" dy="0.59" layer="1" roundness="25"/>
-<smd name="2" x="-0.98" y="-0.95" dx="1.26" dy="0.59" layer="1" roundness="25"/>
-<smd name="3" x="0.98" y="0" dx="1.26" dy="0.59" layer="1" roundness="25"/>
-</package>
 </packages>
 <symbols>
 <symbol name="DIODE">
@@ -292,9 +271,9 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <pin name="C" x="0" y="5.08" visible="off" length="middle" direction="pas" rot="R270"/>
 </symbol>
 <symbol name="BAV23">
-<pin name="3" x="0" y="7.62" length="short" rot="R270"/>
-<pin name="1" x="-2.54" y="-2.54" length="short" rot="R90"/>
-<pin name="2" x="2.54" y="-2.54" length="short" rot="R90"/>
+<pin name="3" x="0" y="7.62" visible="off" length="short" rot="R270"/>
+<pin name="1" x="-2.54" y="-2.54" visible="off" length="short" rot="R90"/>
+<pin name="2" x="2.54" y="-2.54" visible="off" length="short" rot="R90"/>
 <wire x1="-5.08" y1="5.08" x2="-5.08" y2="0" width="0.1524" layer="94"/>
 <wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
@@ -324,7 +303,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DIODE">
+<deviceset name="DIODE" prefix="VD1">
 <gates>
 <gate name="G$1" symbol="DIODE" x="0" y="0"/>
 </gates>
@@ -358,7 +337,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ZENER-DIODES">
+<deviceset name="ZENER-DIODES" prefix="VD1">
 <gates>
 <gate name="G$1" symbol="ZENER-DIODE" x="0" y="0"/>
 </gates>
@@ -383,12 +362,12 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BAV23">
+<deviceset name="BAV23" prefix="VD1">
 <gates>
 <gate name="G$1" symbol="BAV23" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="" package="SOT95P230X110-3N">
+<device name="SOT23" package="SOT23">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
