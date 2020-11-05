@@ -194,9 +194,7 @@
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="VALUE" value="1k" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="1206" package="1206">
@@ -205,9 +203,7 @@
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="VALUE" value="1k" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="2512" package="2512">
@@ -241,9 +237,7 @@
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="VALUE" value="0.1uF" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="1206" package="1206">
@@ -252,9 +246,7 @@
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="VALUE" value="0.1uF" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
