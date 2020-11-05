@@ -428,9 +428,9 @@
 <wire x1="2.159" y1="2.159" x2="1.651" y2="1.651" width="0.254" layer="94"/>
 <wire x1="1.524" y1="1.778" x2="1.778" y2="1.524" width="0.254" layer="94"/>
 <rectangle x1="-0.381" y1="-2.54" x2="0.381" y2="2.54" layer="94" rot="R180"/>
-<pin name="2" x="-2.54" y="0" visible="off" length="short" direction="in" swaplevel="1"/>
-<pin name="1" x="2.54" y="5.08" visible="off" length="short" direction="out" swaplevel="1" rot="R270"/>
-<pin name="6" x="2.54" y="-5.08" visible="off" length="short" direction="in" swaplevel="2" rot="R90"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="in" swaplevel="1"/>
+<pin name="E" x="2.54" y="5.08" visible="off" length="short" direction="out" swaplevel="1" rot="R270"/>
+<pin name="C" x="2.54" y="-5.08" visible="off" length="short" direction="in" swaplevel="2" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -580,12 +580,12 @@
 <devices>
 <device name="SOT-363" package="SOT−363">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$2" pin="1" pad="3"/>
-<connect gate="G$2" pin="2" pad="4"/>
-<connect gate="G$2" pin="6" pad="5"/>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="1"/>
+<connect gate="G$2" pin="B" pad="5"/>
+<connect gate="G$2" pin="C" pad="6"/>
+<connect gate="G$2" pin="E" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
