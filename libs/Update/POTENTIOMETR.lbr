@@ -95,6 +95,27 @@
 <pad name="3" x="0" y="-2.54" drill="0.74"/>
 </package>
 <package name="3296(SMD)">
+<wire x1="8.297" y1="4.457" x2="8.297" y2="-5.073" width="0.127" layer="51"/>
+<wire x1="8.297" y1="-5.073" x2="3.467" y2="-5.073" width="0.127" layer="51"/>
+<wire x1="3.467" y1="-5.073" x2="3.467" y2="4.457" width="0.127" layer="51"/>
+<wire x1="3.467" y1="4.457" x2="8.297" y2="4.457" width="0.127" layer="51"/>
+<wire x1="-7.591" y1="4.454" x2="-7.591" y2="-5.076" width="0.127" layer="21"/>
+<wire x1="2.497" y1="-5.073" x2="2.497" y2="4.452" width="0.127" layer="21"/>
+<circle x="2.877" y="2.232" radius="0.1" width="0.2" layer="21"/>
+<circle x="2.877" y="2.232" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-7.783" y1="4.707" x2="8.547" y2="4.707" width="0.05" layer="39"/>
+<wire x1="8.547" y1="4.707" x2="8.547" y2="-5.323" width="0.05" layer="39"/>
+<wire x1="8.547" y1="-5.323" x2="-7.783" y2="-5.323" width="0.05" layer="39"/>
+<wire x1="-7.783" y1="-5.323" x2="-7.783" y2="4.707" width="0.05" layer="39"/>
+<text x="2.877" y="5.192" size="1.27" layer="25">&gt;NAME</text>
+<text x="2.877" y="-5.808" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<smd name="1" x="5.369" y="2.232" dx="3.81" dy="1.5" layer="1"/>
+<smd name="2" x="5.369" y="-0.308" dx="3.81" dy="1.5" layer="1"/>
+<smd name="3" x="5.371" y="-2.848" dx="3.81" dy="1.5" layer="1"/>
+<wire x1="-7.573" y1="-5.108" x2="2.477" y2="-5.108" width="0.127" layer="21"/>
+<wire x1="-7.583" y1="4.452" x2="2.497" y2="4.452" width="0.127" layer="21"/>
+</package>
+<package name="3296">
 <wire x1="2.42" y1="4.765" x2="2.42" y2="-4.765" width="0.127" layer="51"/>
 <wire x1="2.42" y1="-4.765" x2="-2.41" y2="-4.765" width="0.127" layer="51"/>
 <wire x1="-2.41" y1="-4.765" x2="-2.41" y2="4.765" width="0.127" layer="51"/>
@@ -111,9 +132,9 @@
 <wire x1="-2.66" y1="-5.015" x2="-2.66" y2="5.015" width="0.05" layer="39"/>
 <text x="-3" y="5.5" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3" y="-5.5" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<smd name="1" x="0" y="2.54" dx="3.81" dy="1.778" layer="1"/>
-<smd name="2" x="0" y="0" dx="3.81" dy="1.778" layer="1"/>
-<smd name="3" x="0" y="-2.54" dx="3.81" dy="1.778" layer="1"/>
+<smd name="1" x="0.035" y="2.486" dx="3.81" dy="1.5" layer="1"/>
+<smd name="2" x="0.035" y="0.073" dx="3.81" dy="1.5" layer="1"/>
+<smd name="3" x="0.035" y="-2.594" dx="3.81" dy="1.5" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -145,6 +166,26 @@
 </gates>
 <devices>
 <device name="3296W(DIP)" package="3296W(DIP)">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="WIPER" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3296(SMD)" package="3296(SMD)">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="WIPER" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3296" package="3296">
 <connects>
 <connect gate="G$1" pin="CCW" pad="1"/>
 <connect gate="G$1" pin="CW" pad="3"/>
