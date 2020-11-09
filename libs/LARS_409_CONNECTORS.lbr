@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -678,7 +678,7 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <text x="-2.54" y="3.81" size="1.016" layer="25" ratio="14">&gt;NAME</text>
 <text x="-2.54" y="-5.08" size="1.016" layer="27" ratio="14">&gt;VALUE</text>
 </package>
-<package name="B2P-VH">
+<package name="JST-B2P-VH">
 <description>&lt;b&gt;HEADER&lt;/b&gt;</description>
 <pad name="1" x="-1.98" y="0" drill="1.778" shape="square" rot="R90"/>
 <pad name="2" x="1.98" y="0" drill="1.778" shape="octagon" rot="R90"/>
@@ -695,7 +695,7 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <rectangle x1="-4.2" y1="2.6" x2="4.1" y2="3.5" layer="21"/>
 <text x="-4.191" y="-6.858" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
 </package>
-<package name="B3P-VH">
+<package name="JST-B3P-VH">
 <description>&lt;b&gt;HEADER&lt;/b&gt;</description>
 <pad name="1" x="-3.96" y="0" drill="1.778" shape="square" rot="R90"/>
 <pad name="2" x="0" y="0" drill="1.778" shape="octagon" rot="R90"/>
@@ -713,7 +713,7 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <rectangle x1="-6.18" y1="2.6" x2="6.2" y2="3.5" layer="21"/>
 <text x="-6.171" y="-6.858" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
 </package>
-<package name="B4P-VH">
+<package name="JST-B4P-VH">
 <description>&lt;b&gt;HEADER&lt;/b&gt;</description>
 <pad name="1" x="-5.94" y="0" drill="1.778" shape="square" rot="R90"/>
 <pad name="2" x="-1.98" y="0" drill="1.778" shape="octagon" rot="R90"/>
@@ -732,7 +732,7 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <rectangle x1="-8.16" y1="2.6" x2="8.1" y2="3.5" layer="21"/>
 <text x="-8.151" y="-6.858" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
 </package>
-<package name="B5P-VH">
+<package name="JST-B5P-VH">
 <description>&lt;b&gt;HEADER&lt;/b&gt;</description>
 <pad name="1" x="-7.92" y="0" drill="1.778" shape="square" rot="R90"/>
 <pad name="2" x="-3.96" y="0" drill="1.778" shape="octagon" rot="R90"/>
@@ -752,7 +752,7 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <rectangle x1="-10.14" y1="2.6" x2="10.1" y2="3.5" layer="21"/>
 <text x="-10.131" y="-6.858" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
 </package>
-<package name="B6P-VH">
+<package name="JST-B6P-VH">
 <description>&lt;b&gt;HEADER&lt;/b&gt;</description>
 <pad name="1" x="-9.9" y="0" drill="1.778" shape="square" rot="R90"/>
 <pad name="2" x="-5.94" y="0" drill="1.778" shape="octagon" rot="R90"/>
@@ -773,7 +773,7 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <rectangle x1="-12.12" y1="2.6" x2="12.1" y2="3.5" layer="21"/>
 <text x="-12.111" y="-6.858" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
 </package>
-<package name="B7P-VH">
+<package name="JST-B7P-VH">
 <description>&lt;b&gt;HEADER&lt;/b&gt;</description>
 <pad name="1" x="-11.88" y="0" drill="1.778" shape="square" rot="R90"/>
 <pad name="2" x="-7.92" y="0" drill="1.778" shape="octagon" rot="R90"/>
@@ -795,7 +795,7 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <rectangle x1="-14.1" y1="2.6" x2="14.1" y2="3.5" layer="21"/>
 <text x="-14.091" y="-6.858" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
 </package>
-<package name="B8P-VH">
+<package name="JST-B8P-VH">
 <description>&lt;b&gt;HEADER&lt;/b&gt;</description>
 <pad name="1" x="-13.86" y="0" drill="1.778" shape="square" rot="R90"/>
 <pad name="2" x="-9.9" y="0" drill="1.778" shape="octagon" rot="R90"/>
@@ -818,7 +818,7 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <rectangle x1="-16.08" y1="2.6" x2="16.1" y2="3.5" layer="21"/>
 <text x="-16.071" y="-6.858" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
 </package>
-<package name="B9P-VH">
+<package name="JST-B9P-VH">
 <description>&lt;b&gt;HEADER&lt;/b&gt;</description>
 <pad name="1" x="-15.84" y="0" drill="1.778" shape="square" rot="R90"/>
 <pad name="2" x="-11.88" y="0" drill="1.778" shape="octagon" rot="R90"/>
@@ -842,7 +842,7 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <rectangle x1="-18.06" y1="2.6" x2="18" y2="3.5" layer="21"/>
 <text x="-18.051" y="-6.858" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
 </package>
-<package name="B10P-VH">
+<package name="JST-B10P-VH">
 <description>&lt;b&gt;HEADER&lt;/b&gt;</description>
 <pad name="1" x="-17.82" y="0" drill="1.778" shape="square" rot="R90"/>
 <pad name="2" x="-13.86" y="0" drill="1.778" shape="octagon" rot="R90"/>
@@ -1226,6 +1226,23 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <pad name="9" x="8.89" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="10" x="11.43" y="0" drill="1.016" shape="long" rot="R90"/>
 </package>
+<package name="MOLEX-2X3H">
+<pad name="P$1" x="-4.25" y="13" drill="2" diameter="3.5"/>
+<pad name="P$2" x="-0.05" y="13" drill="2" diameter="3.5"/>
+<pad name="P$3" x="4.15" y="13" drill="2" diameter="3.5"/>
+<pad name="P$4" x="-4.25" y="7.5" drill="2" diameter="3.5"/>
+<pad name="P$5" x="-0.05" y="7.5" drill="2" diameter="3.5"/>
+<pad name="P$6" x="4.15" y="7.5" drill="2" diameter="3.5"/>
+<wire x1="-6.85" y1="5.9" x2="6.95" y2="5.9" width="0.1524" layer="51"/>
+<wire x1="6.95" y1="5.9" x2="6.95" y2="4.5" width="0.1524" layer="51"/>
+<wire x1="6.95" y1="4.5" x2="6.95" y2="-6.9" width="0.1524" layer="21"/>
+<wire x1="6.95" y1="-6.9" x2="-6.85" y2="-6.9" width="0.1524" layer="21"/>
+<wire x1="-6.85" y1="-6.9" x2="-6.85" y2="4.5" width="0.1524" layer="21"/>
+<wire x1="-6.85" y1="4.5" x2="-6.85" y2="5.9" width="0.1524" layer="51"/>
+<wire x1="-6.85" y1="4.5" x2="6.95" y2="4.5" width="0.1524" layer="21"/>
+<hole x="-4.25" y="0.2" drill="3.1"/>
+<hole x="4.75" y="0.2" drill="3.1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CONN_01">
@@ -1467,7 +1484,7 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="B2P-VH" package="B2P-VH">
+<device name="B2P-VH" package="JST-B2P-VH">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1493,7 +1510,7 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="B3P-VH" package="B3P-VH">
+<device name="B3P-VH" package="JST-B3P-VH">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1541,7 +1558,7 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="B4P-VH" package="B4P-VH">
+<device name="B4P-VH" package="JST-B4P-VH">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1593,7 +1610,7 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="B5P-VH" package="B5P-VH">
+<device name="B5P-VH" package="JST-B5P-VH">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1649,7 +1666,7 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="B6P-VH" package="B6P-VH">
+<device name="B6P-VH" package="JST-B6P-VH">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1688,6 +1705,19 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <technology name=""/>
 </technologies>
 </device>
+<device name="MOLEX-3X2H" package="MOLEX-2X3H">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="1X7" prefix="X1">
@@ -1709,7 +1739,7 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="B7P-VH" package="B7P-VH">
+<device name="B7P-VH" package="JST-B7P-VH">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1773,7 +1803,7 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="B8P-VH" package="B8P-VH">
+<device name="B8P-VH" package="JST-B8P-VH">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1841,7 +1871,7 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="B9P-VH" package="B9P-VH">
+<device name="B9P-VH" package="JST-B9P-VH">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1913,7 +1943,7 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="B10P-VH" package="B10P-VH">
+<device name="B10P-VH" package="JST-B10P-VH">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
