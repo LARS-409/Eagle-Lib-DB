@@ -233,6 +233,16 @@
 </gates>
 <devices>
 <device name="" package="SOIC-8">
+<connects>
+<connect gate="A" pin="+IN1" pad="3"/>
+<connect gate="A" pin="+V" pad="8"/>
+<connect gate="A" pin="-IN1" pad="2"/>
+<connect gate="A" pin="GND" pad="4"/>
+<connect gate="A" pin="OUT1" pad="1"/>
+<connect gate="B" pin="+IN2" pad="5"/>
+<connect gate="B" pin="-IN2" pad="6"/>
+<connect gate="B" pin="OUT2" pad="7"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
