@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -1253,6 +1253,41 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="6.34" y1="-2.34" x2="6.34" y2="-14.35" width="0.127" layer="21"/>
 <wire x1="6.34" y1="-14.35" x2="-2.28" y2="-14.35" width="0.127" layer="21"/>
 </package>
+<package name="DEGSON-03P">
+<pad name="P$1" x="-10" y="0" drill="1.7" shape="long" rot="R90"/>
+<pad name="P$2" x="0" y="0" drill="1.7" shape="long" rot="R90"/>
+<pad name="P$3" x="10" y="0" drill="1.7" shape="long" rot="R270"/>
+<hole x="-20" y="0" drill="4.2"/>
+<hole x="20" y="0" drill="4.2"/>
+<wire x1="-25" y1="6.4" x2="-25" y2="-6.4" width="0.127" layer="21"/>
+<wire x1="25" y1="6.4" x2="25" y2="-6.4" width="0.127" layer="21"/>
+<wire x1="15" y1="6.35" x2="15" y2="-6.35" width="0.127" layer="21"/>
+<text x="-25.08" y="8.89" size="1.778" layer="25">&gt;NAME</text>
+<wire x1="-15" y1="6.4" x2="25" y2="6.4" width="0.127" layer="21"/>
+<wire x1="-15" y1="-6.4" x2="25" y2="-6.4" width="0.127" layer="21"/>
+<wire x1="-15" y1="-6.4" x2="-25" y2="-6.4" width="0.127" layer="21"/>
+<wire x1="-15" y1="6.4" x2="-25" y2="6.4" width="0.127" layer="21"/>
+<wire x1="-15" y1="-6.4" x2="-15" y2="6.4" width="0.127" layer="21"/>
+</package>
+<package name="DEGSON-06P">
+<pad name="P$1" x="-20.625" y="0" drill="1.3" shape="long" rot="R90"/>
+<pad name="P$2" x="-12.375" y="0" drill="1.3" shape="long" rot="R90"/>
+<pad name="P$3" x="-4.125" y="0" drill="1.3" shape="long" rot="R90"/>
+<pad name="P$4" x="4.125" y="0" drill="1.3" shape="long" rot="R90"/>
+<pad name="P$5" x="12.375" y="0" drill="1.3" shape="long" rot="R90"/>
+<pad name="P$6" x="20.625" y="0" drill="1.3" shape="long" rot="R90"/>
+<hole x="-28.875" y="0" drill="3"/>
+<hole x="28.875" y="0" drill="3"/>
+<wire x1="-33.95" y1="-6.8" x2="-24.75" y2="-6.8" width="0.1524" layer="21"/>
+<wire x1="-24.75" y1="-6.8" x2="33.95" y2="-6.8" width="0.1524" layer="21"/>
+<wire x1="33.95" y1="-6.8" x2="33.95" y2="6.8" width="0.1524" layer="21"/>
+<wire x1="33.95" y1="6.8" x2="-24.75" y2="6.8" width="0.1524" layer="21"/>
+<wire x1="-24.75" y1="6.8" x2="-33.95" y2="6.8" width="0.1524" layer="21"/>
+<wire x1="-33.95" y1="6.8" x2="-33.95" y2="-6.8" width="0.1524" layer="21"/>
+<wire x1="-24.75" y1="-6.8" x2="-24.75" y2="6.8" width="0.1524" layer="21"/>
+<text x="-33.325" y="7.62" size="1.778" layer="25">&gt;NAME</text>
+<wire x1="24.875" y1="-6.8" x2="24.875" y2="6.8" width="0.1524" layer="25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CONN_01">
@@ -1559,6 +1594,16 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <technology name=""/>
 </technologies>
 </device>
+<device name="DEGSON-03P" package="DEGSON-03P">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="1X4" prefix="X1">
@@ -1725,6 +1770,19 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 </technologies>
 </device>
 <device name="MOLEX-3X2H" package="MOLEX-2X3H">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DEGSON-06P" package="DEGSON-06P">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
