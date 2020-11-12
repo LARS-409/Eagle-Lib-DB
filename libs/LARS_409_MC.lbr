@@ -276,6 +276,30 @@
 <smd name="4" x="0.9" y="-0.75" dx="0.6" dy="0.6" layer="1"/>
 <smd name="5" x="0.9" y="0.75" dx="0.6" dy="0.6" layer="1"/>
 </package>
+<package name="SOP-4">
+<wire x1="-1.825" y1="2.05" x2="1.825" y2="2.05" width="0.2" layer="21"/>
+<wire x1="1.825" y1="2.05" x2="1.825" y2="-2.05" width="0.2" layer="21"/>
+<wire x1="1.825" y1="-2.05" x2="-1.825" y2="-2.05" width="0.2" layer="21"/>
+<wire x1="-1.825" y1="-2.05" x2="-1.825" y2="2.05" width="0.2" layer="21"/>
+<wire x1="-3.7" y1="2.4" x2="3.7" y2="2.4" width="0.05" layer="39"/>
+<wire x1="3.7" y1="2.4" x2="3.7" y2="-2.4" width="0.05" layer="39"/>
+<wire x1="3.7" y1="-2.4" x2="-3.7" y2="-2.4" width="0.05" layer="39"/>
+<wire x1="-3.7" y1="-2.4" x2="-3.7" y2="2.4" width="0.05" layer="39"/>
+<circle x="-1.1" y="1.3" radius="0.16" width="0.3" layer="21"/>
+<circle x="-2.8" y="2" radius="0.1" width="0.2" layer="21"/>
+<text x="-3.285290625" y="3.411790625" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.044909375" y="-4.55046875" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.905" y1="2.05" x2="1.905" y2="2.05" width="0.2" layer="51"/>
+<wire x1="1.905" y1="2.05" x2="1.905" y2="-2.05" width="0.2" layer="51"/>
+<wire x1="1.905" y1="-2.05" x2="-1.905" y2="-2.05" width="0.2" layer="51"/>
+<wire x1="-1.905" y1="-2.05" x2="-1.905" y2="2.05" width="0.2" layer="51"/>
+<circle x="-1.1" y="1.3" radius="0.16" width="0.3" layer="51"/>
+<circle x="-2.8" y="2" radius="0.1" width="0.2" layer="51"/>
+<smd name="1" x="-2.75" y="1.27" dx="1.45" dy="0.55" layer="1" roundness="50"/>
+<smd name="2" x="-2.75" y="-1.27" dx="1.45" dy="0.55" layer="1" roundness="50"/>
+<smd name="3" x="2.75" y="-1.27" dx="1.45" dy="0.55" layer="1" roundness="50" rot="R180"/>
+<smd name="4" x="2.75" y="1.27" dx="1.45" dy="0.55" layer="1" roundness="50" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="OPAMP2">
@@ -454,6 +478,17 @@
 <circle x="10.16" y="-5.08" radius="0.254" width="0.254" layer="94"/>
 <circle x="10.16" y="-15.24" radius="0.254" width="0.254" layer="94"/>
 </symbol>
+<symbol name="CPC1016">
+<wire x1="-5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.1524" layer="94"/>
+<pin name="CONTROL+" x="-10.16" y="5.08" length="middle"/>
+<pin name="CONTROL-" x="-10.16" y="-5.08" length="middle"/>
+<pin name="LOAD-" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="LOAD+" x="12.7" y="2.54" length="middle" rot="R180"/>
+<text x="-2.54" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="OPAMPDUAL" prefix="U" uservalue="yes">
@@ -562,6 +597,24 @@
 <connect gate="G$1" pin="CATHODE(DIODE_3)" pad="4"/>
 <connect gate="G$1" pin="CATHODE(DIODE_4)" pad="5"/>
 <connect gate="G$1" pin="COMMON_ANODE" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPC1016N">
+<gates>
+<gate name="G$1" symbol="CPC1016" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOP-4">
+<connects>
+<connect gate="G$1" pin="CONTROL+" pad="1"/>
+<connect gate="G$1" pin="CONTROL-" pad="2"/>
+<connect gate="G$1" pin="LOAD+" pad="3"/>
+<connect gate="G$1" pin="LOAD-" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
