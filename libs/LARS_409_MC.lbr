@@ -489,6 +489,22 @@
 <pin name="LOAD+" x="12.7" y="2.54" length="middle" rot="R180"/>
 <text x="-2.54" y="10.16" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
+<symbol name="SN65HVD233DR">
+<wire x1="-12.7" y1="10.16" x2="15.24" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="10.16" x2="15.24" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="-12.7" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="10.16" width="0.1524" layer="94"/>
+<pin name="TXD" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="GND" x="-15.24" y="-2.54" length="short"/>
+<pin name="VCC" x="-15.24" y="5.08" length="short"/>
+<pin name="RXD" x="17.78" y="5.08" length="short" rot="R180"/>
+<pin name="LBK" x="17.78" y="0" length="short" rot="R180"/>
+<pin name="CANL" x="-15.24" y="2.54" length="short"/>
+<pin name="CANH" x="-15.24" y="0" length="short"/>
+<pin name="RS" x="17.78" y="-2.54" length="short" rot="R180"/>
+<text x="-4.572" y="11.176" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.064" y="-10.414" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="OPAMPDUAL" prefix="U" uservalue="yes">
@@ -615,6 +631,28 @@
 <connect gate="G$1" pin="CONTROL-" pad="2"/>
 <connect gate="G$1" pin="LOAD+" pad="3"/>
 <connect gate="G$1" pin="LOAD-" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SN65HVD233DR">
+<gates>
+<gate name="G$1" symbol="SN65HVD233DR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC-8">
+<connects>
+<connect gate="G$1" pin="CANH" pad="7"/>
+<connect gate="G$1" pin="CANL" pad="6"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="LBK" pad="5"/>
+<connect gate="G$1" pin="RS" pad="8"/>
+<connect gate="G$1" pin="RXD" pad="4"/>
+<connect gate="G$1" pin="TXD" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
