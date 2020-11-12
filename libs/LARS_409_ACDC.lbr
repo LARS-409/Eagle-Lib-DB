@@ -111,7 +111,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="HE12P24LRN">
+<deviceset name="HE12P24LRN" prefix="M">
 <gates>
 <gate name="G$1" symbol="ACDC-4PIN" x="0" y="0"/>
 </gates>

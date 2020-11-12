@@ -96,7 +96,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CONSTANTAN_SHUNT">
+<deviceset name="CONSTANTAN_SHUNT" prefix="RS">
 <gates>
 <gate name="G$1" symbol="SHUNT" x="0" y="0"/>
 </gates>

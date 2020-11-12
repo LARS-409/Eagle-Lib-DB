@@ -184,7 +184,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DTS-6" prefix="BTN1">
+<deviceset name="DTS-6" prefix="SW">
 <gates>
 <gate name="G$1" symbol="CLOCK_BUTTON" x="0" y="0"/>
 </gates>

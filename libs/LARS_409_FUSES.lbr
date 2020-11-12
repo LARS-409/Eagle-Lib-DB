@@ -108,7 +108,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FUSE">
+<deviceset name="FUSE" prefix="FU">
 <gates>
 <gate name="G$1" symbol="FUSE" x="0" y="0"/>
 </gates>

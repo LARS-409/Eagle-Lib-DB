@@ -530,7 +530,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="IR2104">
+<deviceset name="IR2104" prefix="U">
 <gates>
 <gate name="G$1" symbol="IR2104" x="0" y="0"/>
 </gates>
@@ -552,7 +552,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="USBLC6-2SC6">
+<deviceset name="USBLC6-2SC6" prefix="D">
 <gates>
 <gate name="G$1" symbol="USBLC6-2SC6" x="0" y="0"/>
 </gates>
@@ -570,7 +570,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM124">
+<deviceset name="LM124" prefix="U">
 <gates>
 <gate name="G$1" symbol="OPAMP2" x="-10.16" y="12.7"/>
 <gate name="G$2" symbol="OPAMP1" x="-10.16" y="-7.62"/>
@@ -601,7 +601,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="PESD3V3L4UG">
+<deviceset name="PESD3V3L4UG" prefix="D">
 <gates>
 <gate name="G$1" symbol="PESD3V3L4UG" x="-10.16" y="10.16"/>
 </gates>
@@ -620,7 +620,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPC1016N">
+<deviceset name="CPC1016N" prefix="U">
 <gates>
 <gate name="G$1" symbol="CPC1016" x="0" y="0"/>
 </gates>
@@ -638,7 +638,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SN65HVD233DR">
+<deviceset name="SN65HVD233DR" prefix="U">
 <gates>
 <gate name="G$1" symbol="SN65HVD233DR" x="0" y="0"/>
 </gates>

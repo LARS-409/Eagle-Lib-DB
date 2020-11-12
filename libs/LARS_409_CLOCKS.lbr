@@ -196,7 +196,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CRYSTAL">
+<deviceset name="CRYSTAL" prefix="Z">
 <gates>
 <gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
 </gates>
