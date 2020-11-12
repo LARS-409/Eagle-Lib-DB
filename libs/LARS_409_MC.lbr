@@ -255,6 +255,51 @@
 <smd name="13" x="2.475" y="2.54" dx="1.97" dy="0.6" layer="1" roundness="50"/>
 <smd name="14" x="2.475" y="3.81" dx="1.97" dy="0.6" layer="1" roundness="50"/>
 </package>
+<package name="SOT353">
+<description>Low capacitance unidirectional quadruple ESD protection diode arrays</description>
+<wire x1="-0.675" y1="-1.1" x2="-0.675" y2="1.1" width="0.15" layer="51"/>
+<wire x1="-0.675" y1="1.1" x2="0.675" y2="1.1" width="0.15" layer="51"/>
+<wire x1="0.675" y1="1.1" x2="0.675" y2="-1.1" width="0.15" layer="51"/>
+<wire x1="0.675" y1="-1.1" x2="-0.675" y2="-1.1" width="0.15" layer="51"/>
+<wire x1="-0.225" y1="1.1" x2="0.225" y2="1.1" width="0.15" layer="21"/>
+<wire x1="0.675" y1="-0.075" x2="0.675" y2="0.075" width="0.15" layer="21"/>
+<wire x1="-0.225" y1="-1.1" x2="0.225" y2="-1.1" width="0.15" layer="21"/>
+<wire x1="-1.325" y1="-1.2" x2="-1.325" y2="1.2" width="0.1" layer="39"/>
+<wire x1="-1.325" y1="1.2" x2="1.325" y2="1.2" width="0.1" layer="39"/>
+<wire x1="1.325" y1="1.2" x2="1.325" y2="-1.2" width="0.1" layer="39"/>
+<wire x1="1.325" y1="-1.2" x2="-1.325" y2="-1.2" width="0.1" layer="39"/>
+<text x="-1.125" y="1.525" size="1" layer="25">&gt;NAME</text>
+<circle x="-1.775" y="0.75" radius="0.25" width="0" layer="21"/>
+<smd name="1" x="-0.9" y="0.75" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="-0.9" y="0" dx="0.6" dy="0.4" layer="1"/>
+<smd name="3" x="-0.9" y="-0.75" dx="0.6" dy="0.6" layer="1"/>
+<smd name="4" x="0.9" y="-0.75" dx="0.6" dy="0.6" layer="1"/>
+<smd name="5" x="0.9" y="0.75" dx="0.6" dy="0.6" layer="1"/>
+</package>
+<package name="SOP-4">
+<wire x1="-1.825" y1="2.05" x2="1.825" y2="2.05" width="0.2" layer="21"/>
+<wire x1="1.825" y1="2.05" x2="1.825" y2="-2.05" width="0.2" layer="21"/>
+<wire x1="1.825" y1="-2.05" x2="-1.825" y2="-2.05" width="0.2" layer="21"/>
+<wire x1="-1.825" y1="-2.05" x2="-1.825" y2="2.05" width="0.2" layer="21"/>
+<wire x1="-3.7" y1="2.4" x2="3.7" y2="2.4" width="0.05" layer="39"/>
+<wire x1="3.7" y1="2.4" x2="3.7" y2="-2.4" width="0.05" layer="39"/>
+<wire x1="3.7" y1="-2.4" x2="-3.7" y2="-2.4" width="0.05" layer="39"/>
+<wire x1="-3.7" y1="-2.4" x2="-3.7" y2="2.4" width="0.05" layer="39"/>
+<circle x="-1.1" y="1.3" radius="0.16" width="0.3" layer="21"/>
+<circle x="-2.8" y="2" radius="0.1" width="0.2" layer="21"/>
+<text x="-3.285290625" y="3.411790625" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.044909375" y="-4.55046875" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.905" y1="2.05" x2="1.905" y2="2.05" width="0.2" layer="51"/>
+<wire x1="1.905" y1="2.05" x2="1.905" y2="-2.05" width="0.2" layer="51"/>
+<wire x1="1.905" y1="-2.05" x2="-1.905" y2="-2.05" width="0.2" layer="51"/>
+<wire x1="-1.905" y1="-2.05" x2="-1.905" y2="2.05" width="0.2" layer="51"/>
+<circle x="-1.1" y="1.3" radius="0.16" width="0.3" layer="51"/>
+<circle x="-2.8" y="2" radius="0.1" width="0.2" layer="51"/>
+<smd name="1" x="-2.75" y="1.27" dx="1.45" dy="0.55" layer="1" roundness="50"/>
+<smd name="2" x="-2.75" y="-1.27" dx="1.45" dy="0.55" layer="1" roundness="50"/>
+<smd name="3" x="2.75" y="-1.27" dx="1.45" dy="0.55" layer="1" roundness="50" rot="R180"/>
+<smd name="4" x="2.75" y="1.27" dx="1.45" dy="0.55" layer="1" roundness="50" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="OPAMP2">
@@ -392,6 +437,74 @@
 <pin name="I/O1" x="-17.78" y="12.7" visible="pad" length="short"/>
 <pin name="I/O2" x="-17.78" y="-12.7" visible="pad" length="short"/>
 </symbol>
+<symbol name="PESD3V3L4UG">
+<description>Low capacitance unidirectional quadruple ESD protection diode arrays</description>
+<wire x1="12.7" y1="-2.54" x2="12.7" y2="-7.62" width="0.508" layer="94"/>
+<wire x1="17.78" y1="-2.54" x2="17.78" y2="-7.62" width="0.508" layer="94"/>
+<wire x1="12.7" y1="-2.54" x2="17.78" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="17.78" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="17.78" y1="-7.62" x2="17.018" y2="-7.62" width="0.508" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.302" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="7.62" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="-7.62" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="2.54" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="7.62" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-7.62" width="0.508" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="-15.24" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="12.7" y2="-15.24" width="0.508" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="-17.78" width="0.508" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="17.78" y2="-15.24" width="0.508" layer="94"/>
+<wire x1="17.78" y1="-15.24" x2="12.7" y2="-12.7" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="7.62" y2="-17.78" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-17.78" x2="2.54" y2="-15.24" width="0.508" layer="94"/>
+<wire x1="2.54" y1="-15.24" x2="7.62" y2="-12.7" width="0.508" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-17.78" width="0.508" layer="94"/>
+<wire x1="17.78" y1="-12.7" x2="17.78" y2="-17.78" width="0.508" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="3.302" y2="-12.7" width="0.508" layer="94"/>
+<wire x1="17.78" y1="-17.78" x2="17.018" y2="-17.78" width="0.508" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.15" layer="94"/>
+<wire x1="17.78" y1="-5.08" x2="17.78" y2="-5.08" width="0.15" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="10.16" y2="-10.16" width="0.15" layer="94"/>
+<wire x1="2.54" y1="-15.24" x2="2.54" y2="-15.24" width="0.15" layer="94"/>
+<wire x1="17.78" y1="-15.24" x2="17.78" y2="-15.24" width="0.15" layer="94"/>
+<text x="3.556" y="0.254" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<text x="3.556" y="-18.796" size="2.54" layer="95" align="top-left">PESD3V3L4UG,115</text>
+<pin name="CATHODE(DIODE_1)" x="-2.54" y="-5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="CATHODE(DIODE_4)" x="22.86" y="-5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="COMMON_ANODE" x="0" y="-10.16" visible="pad" direction="pas"/>
+<pin name="CATHODE(DIODE_2)" x="-2.54" y="-15.24" visible="pad" length="middle" direction="pas"/>
+<pin name="CATHODE(DIODE_3)" x="22.86" y="-15.24" visible="pad" length="middle" direction="pas" rot="R180"/>
+<circle x="10.16" y="-10.16" radius="0.254" width="0.254" layer="94"/>
+<circle x="10.16" y="-5.08" radius="0.254" width="0.254" layer="94"/>
+<circle x="10.16" y="-15.24" radius="0.254" width="0.254" layer="94"/>
+</symbol>
+<symbol name="CPC1016">
+<wire x1="-5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.1524" layer="94"/>
+<pin name="CONTROL+" x="-10.16" y="5.08" length="middle"/>
+<pin name="CONTROL-" x="-10.16" y="-5.08" length="middle"/>
+<pin name="LOAD-" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="LOAD+" x="12.7" y="2.54" length="middle" rot="R180"/>
+<text x="-2.54" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="SN65HVD233DR">
+<wire x1="-12.7" y1="10.16" x2="15.24" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="10.16" x2="15.24" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="-12.7" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="10.16" width="0.1524" layer="94"/>
+<pin name="TXD" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="GND" x="-15.24" y="-2.54" length="short"/>
+<pin name="VCC" x="-15.24" y="5.08" length="short"/>
+<pin name="RXD" x="17.78" y="5.08" length="short" rot="R180"/>
+<pin name="LBK" x="17.78" y="0" length="short" rot="R180"/>
+<pin name="CANL" x="-15.24" y="2.54" length="short"/>
+<pin name="CANH" x="-15.24" y="0" length="short"/>
+<pin name="RS" x="17.78" y="-2.54" length="short" rot="R180"/>
+<text x="-4.572" y="11.176" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.064" y="-10.414" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="OPAMPDUAL" prefix="U" uservalue="yes">
@@ -481,6 +594,65 @@
 <connect gate="G$4" pin="+IN2" pad="12"/>
 <connect gate="G$4" pin="-IN2" pad="13"/>
 <connect gate="G$4" pin="OUT2" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PESD3V3L4UG">
+<gates>
+<gate name="G$1" symbol="PESD3V3L4UG" x="-10.16" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="SOT353">
+<connects>
+<connect gate="G$1" pin="CATHODE(DIODE_1)" pad="1"/>
+<connect gate="G$1" pin="CATHODE(DIODE_2)" pad="3"/>
+<connect gate="G$1" pin="CATHODE(DIODE_3)" pad="4"/>
+<connect gate="G$1" pin="CATHODE(DIODE_4)" pad="5"/>
+<connect gate="G$1" pin="COMMON_ANODE" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPC1016N">
+<gates>
+<gate name="G$1" symbol="CPC1016" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOP-4">
+<connects>
+<connect gate="G$1" pin="CONTROL+" pad="1"/>
+<connect gate="G$1" pin="CONTROL-" pad="2"/>
+<connect gate="G$1" pin="LOAD+" pad="3"/>
+<connect gate="G$1" pin="LOAD-" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SN65HVD233DR">
+<gates>
+<gate name="G$1" symbol="SN65HVD233DR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC-8">
+<connects>
+<connect gate="G$1" pin="CANH" pad="7"/>
+<connect gate="G$1" pin="CANL" pad="6"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="LBK" pad="5"/>
+<connect gate="G$1" pin="RS" pad="8"/>
+<connect gate="G$1" pin="RXD" pad="4"/>
+<connect gate="G$1" pin="TXD" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
