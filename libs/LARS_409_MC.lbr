@@ -225,6 +225,36 @@
 <smd name="5" x="1.175" y="0" dx="1.36" dy="0.6" layer="1" roundness="15"/>
 <smd name="6" x="1.175" y="0.95" dx="1.36" dy="0.6" layer="1" roundness="15"/>
 </package>
+<package name="SOIC-14">
+<wire x1="-1.17" y1="-4.325" x2="1.17" y2="-4.325" width="0.127" layer="21"/>
+<wire x1="-1.17" y1="4.325" x2="1.17" y2="4.325" width="0.127" layer="21"/>
+<wire x1="-1.95" y1="4.325" x2="1.95" y2="4.325" width="0.127" layer="51"/>
+<wire x1="1.95" y1="4.325" x2="1.95" y2="-4.325" width="0.127" layer="51"/>
+<wire x1="1.95" y1="-4.325" x2="-1.95" y2="-4.325" width="0.127" layer="51"/>
+<wire x1="-1.95" y1="-4.325" x2="-1.95" y2="4.325" width="0.127" layer="51"/>
+<text x="-3.6" y="4.8" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.6" y="-4.8" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-3.71" y1="4.575" x2="3.71" y2="4.575" width="0.05" layer="39"/>
+<wire x1="3.71" y1="4.575" x2="3.71" y2="-4.575" width="0.05" layer="39"/>
+<wire x1="3.71" y1="-4.575" x2="-3.71" y2="-4.575" width="0.05" layer="39"/>
+<wire x1="-3.71" y1="-4.575" x2="-3.71" y2="4.575" width="0.05" layer="39"/>
+<circle x="-4.05" y="4.1" radius="0.1" width="0.2" layer="21"/>
+<circle x="-4.05" y="4.1" radius="0.1" width="0.2" layer="51"/>
+<smd name="1" x="-2.475" y="3.81" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="2" x="-2.475" y="2.54" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="3" x="-2.475" y="1.27" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="4" x="-2.475" y="0" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="5" x="-2.475" y="-1.27" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="6" x="-2.475" y="-2.54" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="7" x="-2.475" y="-3.81" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="8" x="2.475" y="-3.81" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="9" x="2.475" y="-2.54" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="10" x="2.475" y="-1.27" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="11" x="2.475" y="0" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="12" x="2.475" y="1.27" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="13" x="2.475" y="2.54" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="14" x="2.475" y="3.81" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+</package>
 </packages>
 <symbols>
 <symbol name="OPAMP2">
@@ -420,6 +450,37 @@
 <connect gate="G$1" pin="I/O1" pad="1 6"/>
 <connect gate="G$1" pin="I/O2" pad="3 4"/>
 <connect gate="G$1" pin="VBUS" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM124">
+<gates>
+<gate name="G$1" symbol="OPAMP2" x="-10.16" y="12.7"/>
+<gate name="G$2" symbol="OPAMP1" x="-10.16" y="-7.62"/>
+<gate name="G$3" symbol="OPAMP1" x="12.7" y="12.7"/>
+<gate name="G$4" symbol="OPAMP1" x="12.7" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="SOIC-14">
+<connects>
+<connect gate="G$1" pin="+IN1" pad="3"/>
+<connect gate="G$1" pin="+V" pad="4"/>
+<connect gate="G$1" pin="-IN1" pad="2"/>
+<connect gate="G$1" pin="GND" pad="11"/>
+<connect gate="G$1" pin="OUT1" pad="1"/>
+<connect gate="G$2" pin="+IN2" pad="5"/>
+<connect gate="G$2" pin="-IN2" pad="6"/>
+<connect gate="G$2" pin="OUT2" pad="7"/>
+<connect gate="G$3" pin="+IN2" pad="10"/>
+<connect gate="G$3" pin="-IN2" pad="9"/>
+<connect gate="G$3" pin="OUT2" pad="8"/>
+<connect gate="G$4" pin="+IN2" pad="12"/>
+<connect gate="G$4" pin="-IN2" pad="13"/>
+<connect gate="G$4" pin="OUT2" pad="14"/>
 </connects>
 <technologies>
 <technology name=""/>
