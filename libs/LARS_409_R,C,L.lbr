@@ -76,20 +76,6 @@
 </layers>
 <library>
 <packages>
-<package name="0805" urn="urn:adsk.eagle:footprint:24653005/1">
-<wire x1="-1" y1="0.75" x2="1" y2="0.75" width="0.145" layer="21"/>
-<wire x1="1" y1="-0.7" x2="-1" y2="-0.7" width="0.145" layer="21"/>
-<wire x1="-1.575" y1="0.9375" x2="1.575" y2="0.9375" width="0.05" layer="39"/>
-<wire x1="1.575" y1="0.9375" x2="1.575" y2="-0.9375" width="0.05" layer="39"/>
-<wire x1="1.575" y1="-0.9375" x2="-1.575" y2="-0.9375" width="0.05" layer="39"/>
-<wire x1="-1.575" y1="-0.9375" x2="-1.575" y2="0.9375" width="0.05" layer="39"/>
-<rectangle x1="-1" y1="-0.6" x2="-0.5" y2="0.65" layer="35"/>
-<rectangle x1="0.5" y1="-0.6" x2="1" y2="0.65" layer="35"/>
-<smd name="P$1" x="-0.75" y="0.025" dx="1" dy="1" layer="1"/>
-<smd name="P$2" x="0.75" y="0.025" dx="1" dy="1" layer="1"/>
-<text x="-1.47" y="1.11" size="0.6" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.56" y="-1.66" size="0.6" layer="27" font="vector">&gt;VALUE</text>
-</package>
 <package name="0603" urn="urn:adsk.eagle:footprint:24653006/1">
 <smd name="P$1" x="-0.827" y="0" dx="1.2" dy="0.6" layer="1"/>
 <smd name="P$2" x="0.827" y="0" dx="1.2" dy="0.6" layer="1"/>
@@ -118,6 +104,20 @@
 <text x="-1.35" y="1.4" size="0.6" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.56" y="-1.92" size="0.6" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="0805" urn="urn:adsk.eagle:footprint:24653005/1">
+<wire x1="-1" y1="0.75" x2="1" y2="0.75" width="0.145" layer="21"/>
+<wire x1="1" y1="-0.7" x2="-1" y2="-0.7" width="0.145" layer="21"/>
+<wire x1="-1.575" y1="0.9375" x2="1.575" y2="0.9375" width="0.05" layer="39"/>
+<wire x1="1.575" y1="0.9375" x2="1.575" y2="-0.9375" width="0.05" layer="39"/>
+<wire x1="1.575" y1="-0.9375" x2="-1.575" y2="-0.9375" width="0.05" layer="39"/>
+<wire x1="-1.575" y1="-0.9375" x2="-1.575" y2="0.9375" width="0.05" layer="39"/>
+<rectangle x1="-1" y1="-0.6" x2="-0.5" y2="0.65" layer="35"/>
+<rectangle x1="0.5" y1="-0.6" x2="1" y2="0.65" layer="35"/>
+<smd name="P$1" x="-0.75" y="0.025" dx="1" dy="1" layer="1"/>
+<smd name="P$2" x="0.75" y="0.025" dx="1" dy="1" layer="1"/>
+<text x="-1.47" y="1.11" size="0.6" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.56" y="-1.66" size="0.6" layer="27" font="vector">&gt;VALUE</text>
+</package>
 <package name="2512" urn="urn:adsk.eagle:footprint:24653007/1">
 <wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="51"/>
 <wire x1="-2.362" y1="-1.473" x2="2.387" y2="-1.473" width="0.1524" layer="51"/>
@@ -134,12 +134,7 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="1206" urn="urn:adsk.eagle:package:24653015/2" type="model">
-<packageinstances>
-<packageinstance name="1206"/>
-</packageinstances>
-</package3d>
-<package3d name="0603DEV" urn="urn:adsk.eagle:package:24653020/1" type="model">
+<package3d name="0603" urn="urn:adsk.eagle:package:24653020/2" type="model">
 <packageinstances>
 <packageinstance name="0603"/>
 </packageinstances>
@@ -147,6 +142,11 @@
 <package3d name="0805" urn="urn:adsk.eagle:package:24653017/2" type="model">
 <packageinstances>
 <packageinstance name="0805"/>
+</packageinstances>
+</package3d>
+<package3d name="1206" urn="urn:adsk.eagle:package:24653015/2" type="model">
+<packageinstances>
+<packageinstance name="1206"/>
 </packageinstances>
 </package3d>
 <package3d name="2512" urn="urn:adsk.eagle:package:24653013/2" type="model">
@@ -168,16 +168,6 @@
 <text x="-2.54" y="1.524" size="1.27" layer="95" font="vector">&gt;NAME</text>
 <text x="-2.54" y="-3.302" size="1.27" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
-<symbol name="R" urn="urn:adsk.eagle:symbol:24653011/1">
-<wire x1="-2.54" y1="-0.762" x2="2.54" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0.762" x2="-2.54" y2="0.762" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0.762" x2="-2.54" y2="-0.762" width="0.254" layer="94"/>
-<pin name="P$1" x="-5.08" y="0" visible="off" length="short"/>
-<pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
-<text x="-2.54" y="1.016" size="1.27" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.27" layer="96" font="vector">&gt;VALUE</text>
-</symbol>
 <symbol name="L" urn="urn:adsk.eagle:symbol:24653009/1">
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-7.62" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
@@ -192,9 +182,19 @@
 <text x="-6.35" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <text x="-6.35" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="R" urn="urn:adsk.eagle:symbol:24653011/1">
+<wire x1="-2.54" y1="-0.762" x2="2.54" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.762" x2="-2.54" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0.762" x2="-2.54" y2="-0.762" width="0.254" layer="94"/>
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<text x="-2.54" y="1.016" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="C" urn="urn:adsk.eagle:component:24653069/2" prefix="C" uservalue="yes">
+<deviceset name="C" urn="urn:adsk.eagle:component:24653069/3" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="С" x="0" y="0"/>
 </gates>
@@ -205,7 +205,7 @@
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24653020/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24653020/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -237,7 +237,50 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="R" urn="urn:adsk.eagle:component:24653071/2" prefix="R" uservalue="yes">
+<deviceset name="L" urn="urn:adsk.eagle:component:24653067/3" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0603" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24653020/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0805" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24653017/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1206" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24653015/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R" urn="urn:adsk.eagle:component:24653071/3" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -248,7 +291,7 @@
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24653020/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24653020/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -285,49 +328,6 @@
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:24653013/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="L" urn="urn:adsk.eagle:component:24653067/2" prefix="L" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="L" x="0" y="0"/>
-</gates>
-<devices>
-<device name="0603" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24653020/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0805" package="0805">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24653017/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1206" package="1206">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24653015/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
