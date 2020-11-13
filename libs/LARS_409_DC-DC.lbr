@@ -290,7 +290,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LM3481" prefix="U1">
+<deviceset name="LM3481" prefix="U">
 <gates>
 <gate name="G$1" symbol="LM3481" x="0" y="0"/>
 </gates>
@@ -334,7 +334,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM317">
+<deviceset name="LM317" prefix="U">
 <gates>
 <gate name="G$1" symbol="LM317" x="0" y="0"/>
 </gates>
