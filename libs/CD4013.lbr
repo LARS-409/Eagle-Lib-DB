@@ -182,7 +182,7 @@
 <wire x1="12.7" y1="10.16" x2="12.7" y2="-10.16" width="0.41" layer="94"/>
 <wire x1="12.7" y1="-10.16" x2="-12.7" y2="-10.16" width="0.41" layer="94"/>
 <wire x1="-12.7" y1="-10.16" x2="-12.7" y2="10.16" width="0.41" layer="94"/>
-<text x="20.32" y="18.78" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-7.62" y="21.32" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="20.32" y="-14.16" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 <pin name="CLOCK1" x="-17.78" y="-2.54" length="middle" direction="in"/>
 <pin name="D1" x="-17.78" y="2.54" length="middle" direction="in"/>
@@ -228,6 +228,34 @@
 <pin name="SET2" x="-17.78" y="-22.86" length="middle" direction="in"/>
 <pin name="!Q2" x="17.78" y="-27.94" length="middle" direction="out" rot="R180"/>
 <pin name="Q2" x="17.78" y="-33.02" length="middle" direction="out" rot="R180"/>
+</symbol>
+<symbol name="1">
+<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.41" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-10.16" width="0.41" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="-12.7" y2="-10.16" width="0.41" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="-12.7" y2="10.16" width="0.41" layer="94"/>
+<text x="10.16" y="16.24" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<pin name="CLOCK1" x="-17.78" y="-2.54" length="middle" direction="in"/>
+<pin name="D1" x="-17.78" y="2.54" length="middle" direction="in"/>
+<pin name="RESET1" x="-17.78" y="-7.62" length="middle" direction="in"/>
+<pin name="SET1" x="-17.78" y="7.62" length="middle" direction="in"/>
+<pin name="VDD" x="0" y="15.24" length="middle" direction="pwr" rot="R270"/>
+<pin name="!Q1" x="17.78" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="Q" x="17.78" y="-2.54" length="middle" direction="out" rot="R180"/>
+</symbol>
+<symbol name="2">
+<text x="10.16" y="-16.7" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<pin name="VSS" x="0" y="-15.24" length="middle" direction="pwr" rot="R90"/>
+<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.41" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-10.16" width="0.41" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="-12.7" y2="-10.16" width="0.41" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="-12.7" y2="10.16" width="0.41" layer="94"/>
+<pin name="CLOCK2" x="-17.78" y="-2.54" length="middle" direction="in"/>
+<pin name="D2" x="-17.78" y="2.54" length="middle" direction="in"/>
+<pin name="RESET2" x="-17.78" y="-7.62" length="middle" direction="in"/>
+<pin name="SET2" x="-17.78" y="7.62" length="middle" direction="in"/>
+<pin name="!Q2" x="17.78" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="Q2" x="17.78" y="-2.54" length="middle" direction="out" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -310,27 +338,28 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CD4013/2">
+<deviceset name="CD4013/BUT">
 <gates>
-<gate name="CD4013" symbol="CD4013/2" x="0" y="15.24"/>
+<gate name="G$1" symbol="1" x="0" y="15.24"/>
+<gate name="G$2" symbol="2" x="0" y="-15.24"/>
 </gates>
 <devices>
 <device name="" package="TSSOP-14">
 <connects>
-<connect gate="CD4013" pin="!Q1" pad="2"/>
-<connect gate="CD4013" pin="!Q2" pad="12"/>
-<connect gate="CD4013" pin="CLOCK1" pad="3"/>
-<connect gate="CD4013" pin="CLOCK2" pad="11"/>
-<connect gate="CD4013" pin="D1" pad="5"/>
-<connect gate="CD4013" pin="D2" pad="9"/>
-<connect gate="CD4013" pin="Q" pad="1"/>
-<connect gate="CD4013" pin="Q2" pad="13"/>
-<connect gate="CD4013" pin="RESET1" pad="4"/>
-<connect gate="CD4013" pin="RESET2" pad="10"/>
-<connect gate="CD4013" pin="SET1" pad="6"/>
-<connect gate="CD4013" pin="SET2" pad="8"/>
-<connect gate="CD4013" pin="VDD" pad="14"/>
-<connect gate="CD4013" pin="VSS" pad="7"/>
+<connect gate="G$1" pin="!Q1" pad="1"/>
+<connect gate="G$1" pin="CLOCK1" pad="3"/>
+<connect gate="G$1" pin="D1" pad="5"/>
+<connect gate="G$1" pin="Q" pad="2"/>
+<connect gate="G$1" pin="RESET1" pad="4"/>
+<connect gate="G$1" pin="SET1" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="14"/>
+<connect gate="G$2" pin="!Q2" pad="13"/>
+<connect gate="G$2" pin="CLOCK2" pad="11"/>
+<connect gate="G$2" pin="D2" pad="9"/>
+<connect gate="G$2" pin="Q2" pad="12"/>
+<connect gate="G$2" pin="RESET2" pad="10"/>
+<connect gate="G$2" pin="SET2" pad="8"/>
+<connect gate="G$2" pin="VSS" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -338,20 +367,20 @@
 </device>
 <device name="DIP-14" package="DIP-14">
 <connects>
-<connect gate="CD4013" pin="!Q1" pad="2"/>
-<connect gate="CD4013" pin="!Q2" pad="12"/>
-<connect gate="CD4013" pin="CLOCK1" pad="3"/>
-<connect gate="CD4013" pin="CLOCK2" pad="11"/>
-<connect gate="CD4013" pin="D1" pad="5"/>
-<connect gate="CD4013" pin="D2" pad="9"/>
-<connect gate="CD4013" pin="Q" pad="1"/>
-<connect gate="CD4013" pin="Q2" pad="13"/>
-<connect gate="CD4013" pin="RESET1" pad="4"/>
-<connect gate="CD4013" pin="RESET2" pad="10"/>
-<connect gate="CD4013" pin="SET1" pad="6"/>
-<connect gate="CD4013" pin="SET2" pad="8"/>
-<connect gate="CD4013" pin="VDD" pad="14"/>
-<connect gate="CD4013" pin="VSS" pad="7"/>
+<connect gate="G$1" pin="!Q1" pad="1"/>
+<connect gate="G$1" pin="CLOCK1" pad="3"/>
+<connect gate="G$1" pin="D1" pad="5"/>
+<connect gate="G$1" pin="Q" pad="2"/>
+<connect gate="G$1" pin="RESET1" pad="4"/>
+<connect gate="G$1" pin="SET1" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="14"/>
+<connect gate="G$2" pin="!Q2" pad="13"/>
+<connect gate="G$2" pin="CLOCK2" pad="11"/>
+<connect gate="G$2" pin="D2" pad="9"/>
+<connect gate="G$2" pin="Q2" pad="12"/>
+<connect gate="G$2" pin="RESET2" pad="10"/>
+<connect gate="G$2" pin="SET2" pad="8"/>
+<connect gate="G$2" pin="VSS" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -359,90 +388,20 @@
 </device>
 <device name="SOIC-14" package="SOIC-14">
 <connects>
-<connect gate="CD4013" pin="!Q1" pad="2"/>
-<connect gate="CD4013" pin="!Q2" pad="12"/>
-<connect gate="CD4013" pin="CLOCK1" pad="3"/>
-<connect gate="CD4013" pin="CLOCK2" pad="11"/>
-<connect gate="CD4013" pin="D1" pad="5"/>
-<connect gate="CD4013" pin="D2" pad="9"/>
-<connect gate="CD4013" pin="Q" pad="1"/>
-<connect gate="CD4013" pin="Q2" pad="13"/>
-<connect gate="CD4013" pin="RESET1" pad="4"/>
-<connect gate="CD4013" pin="RESET2" pad="10"/>
-<connect gate="CD4013" pin="SET1" pad="6"/>
-<connect gate="CD4013" pin="SET2" pad="8"/>
-<connect gate="CD4013" pin="VDD" pad="14"/>
-<connect gate="CD4013" pin="VSS" pad="7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CD4013(BUTTON)">
-<gates>
-<gate name="CD4013" symbol="CD4013(BUTTON)" x="-27.94" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="TSSOP-14">
-<connects>
-<connect gate="CD4013" pin="!Q1" pad="2"/>
-<connect gate="CD4013" pin="!Q2" pad="12"/>
-<connect gate="CD4013" pin="CLOCK1" pad="3"/>
-<connect gate="CD4013" pin="CLOCK2" pad="11"/>
-<connect gate="CD4013" pin="D1" pad="5"/>
-<connect gate="CD4013" pin="D2" pad="9"/>
-<connect gate="CD4013" pin="Q" pad="1"/>
-<connect gate="CD4013" pin="Q2" pad="13"/>
-<connect gate="CD4013" pin="RESET1" pad="4"/>
-<connect gate="CD4013" pin="RESET2" pad="10"/>
-<connect gate="CD4013" pin="SET1" pad="6"/>
-<connect gate="CD4013" pin="SET2" pad="8"/>
-<connect gate="CD4013" pin="VDD" pad="14"/>
-<connect gate="CD4013" pin="VSS" pad="7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="DIP-14" package="DIP-14">
-<connects>
-<connect gate="CD4013" pin="!Q1" pad="2"/>
-<connect gate="CD4013" pin="!Q2" pad="12"/>
-<connect gate="CD4013" pin="CLOCK1" pad="3"/>
-<connect gate="CD4013" pin="CLOCK2" pad="11"/>
-<connect gate="CD4013" pin="D1" pad="5"/>
-<connect gate="CD4013" pin="D2" pad="9"/>
-<connect gate="CD4013" pin="Q" pad="1"/>
-<connect gate="CD4013" pin="Q2" pad="13"/>
-<connect gate="CD4013" pin="RESET1" pad="4"/>
-<connect gate="CD4013" pin="RESET2" pad="10"/>
-<connect gate="CD4013" pin="SET1" pad="6"/>
-<connect gate="CD4013" pin="SET2" pad="8"/>
-<connect gate="CD4013" pin="VDD" pad="14"/>
-<connect gate="CD4013" pin="VSS" pad="7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SOIC-14" package="SOIC-14">
-<connects>
-<connect gate="CD4013" pin="!Q1" pad="2"/>
-<connect gate="CD4013" pin="!Q2" pad="12"/>
-<connect gate="CD4013" pin="CLOCK1" pad="3"/>
-<connect gate="CD4013" pin="CLOCK2" pad="11"/>
-<connect gate="CD4013" pin="D1" pad="5"/>
-<connect gate="CD4013" pin="D2" pad="9"/>
-<connect gate="CD4013" pin="Q" pad="1"/>
-<connect gate="CD4013" pin="Q2" pad="13"/>
-<connect gate="CD4013" pin="RESET1" pad="4"/>
-<connect gate="CD4013" pin="RESET2" pad="10"/>
-<connect gate="CD4013" pin="SET1" pad="6"/>
-<connect gate="CD4013" pin="SET2" pad="8"/>
-<connect gate="CD4013" pin="VDD" pad="14"/>
-<connect gate="CD4013" pin="VSS" pad="7"/>
+<connect gate="G$1" pin="!Q1" pad="1"/>
+<connect gate="G$1" pin="CLOCK1" pad="3"/>
+<connect gate="G$1" pin="D1" pad="5"/>
+<connect gate="G$1" pin="Q" pad="2"/>
+<connect gate="G$1" pin="RESET1" pad="4"/>
+<connect gate="G$1" pin="SET1" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="14"/>
+<connect gate="G$2" pin="!Q2" pad="13"/>
+<connect gate="G$2" pin="CLOCK2" pad="11"/>
+<connect gate="G$2" pin="D2" pad="9"/>
+<connect gate="G$2" pin="Q2" pad="12"/>
+<connect gate="G$2" pin="RESET2" pad="10"/>
+<connect gate="G$2" pin="SET2" pad="8"/>
+<connect gate="G$2" pin="VSS" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>
