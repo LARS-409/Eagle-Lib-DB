@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -74,21 +74,17 @@
 <library>
 <packages>
 <package name="CR2032">
-<circle x="0" y="0.27" radius="10" width="0.127" layer="51"/>
-<wire x1="-3.95" y1="-12.93" x2="3.95" y2="-12.93" width="0.127" layer="21"/>
-<circle x="0" y="0.27" radius="11.05" width="0.127" layer="51"/>
-<pad name="-" x="0" y="10.77" drill="1.3"/>
-<pad name="+" x="0" y="-10.23" drill="1.3"/>
-<wire x1="-3.95" y1="-12.93" x2="-3.95" y2="-10.08" width="0.127" layer="21"/>
-<wire x1="3.95" y1="-12.93" x2="3.95" y2="-10.08" width="0.127" layer="21"/>
-<text x="0" y="0.32" size="1.27" layer="21">&gt;Name</text>
-<text x="0" y="-1.48" size="1.27" layer="21">&gt;Value</text>
-<text x="-0.5" y="-8.6" size="1.27" layer="21">+</text>
-<text x="-0.3" y="8.5" size="1.27" layer="21">-</text>
-<wire x1="-1.1" y1="-9.7" x2="-1.2" y2="10.2" width="0.127" layer="21" curve="-165"/>
-<wire x1="1.4" y1="-9.6" x2="1.3" y2="10.2" width="0.127" layer="21" curve="165"/>
-<wire x1="-1.2" y1="-10.7" x2="-1.3" y2="11.2" width="0.127" layer="21" curve="-167"/>
-<wire x1="1.3" y1="-10.7" x2="1.2" y2="11.3" width="0.127" layer="21" curve="167"/>
+<pad name="-" x="0" y="10" drill="1.3"/>
+<pad name="+" x="0" y="-10" drill="1.3"/>
+<text x="-2" y="1.32" size="1.27" layer="21">&gt;Name</text>
+<text x="-2" y="-0.48" size="1.27" layer="21">&gt;Value</text>
+<text x="-0.5" y="-7.6" size="1.27" layer="21">+</text>
+<text x="-0.3" y="7.5" size="1.27" layer="21">-</text>
+<wire x1="-3.95" y1="-12" x2="3.95" y2="-12" width="0.1524" layer="21"/>
+<wire x1="-3.95" y1="-12.05" x2="-3.95" y2="-8.3" width="0.1524" layer="21"/>
+<wire x1="4" y1="-12" x2="4" y2="-8.25" width="0.1524" layer="21"/>
+<wire x1="-3.95" y1="-8.3" x2="4.8" y2="12" width="0.1524" layer="21" curve="-185.101806"/>
+<wire x1="4" y1="-8.2" x2="4.8" y2="12" width="0.1524" layer="21" curve="132.681833"/>
 </package>
 </packages>
 <symbols>

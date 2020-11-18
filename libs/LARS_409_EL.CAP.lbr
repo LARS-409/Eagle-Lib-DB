@@ -240,7 +240,7 @@ http://www.bccomponents.com/</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="EL.CAP" prefix="C1" uservalue="yes">
+<deviceset name="EL.CAP" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="EL.CAP" x="0" y="0"/>
 </gates>
