@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -292,7 +292,7 @@
 <smd name="2" x="0.95" y="-0.98" dx="0.9" dy="0.7" layer="1" roundness="25" rot="R90"/>
 <smd name="3" x="0" y="0.98" dx="0.9" dy="0.7" layer="1" roundness="25" rot="R90"/>
 </package>
-<package name="SOT229P700X180-4N">
+<package name="SOT-223">
 <wire x1="-1.86" y1="3.36" x2="1.86" y2="3.36" width="0.127" layer="51"/>
 <wire x1="1.86" y1="3.36" x2="1.86" y2="-3.36" width="0.127" layer="51"/>
 <wire x1="1.86" y1="-3.36" x2="-1.86" y2="-3.36" width="0.127" layer="51"/>
@@ -479,7 +479,7 @@
 <gate name="G$1" symbol="AMS1117" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT229P700X180-4N">
+<device name="" package="SOT-223">
 <connects>
 <connect gate="G$1" pin="ADJ/GND" pad="1"/>
 <connect gate="G$1" pin="VIN" pad="3"/>
