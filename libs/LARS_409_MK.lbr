@@ -399,10 +399,6 @@
 <smd name="16" x="7.7" y="7" dx="2.6" dy="1.1" layer="1" rot="R180"/>
 </package>
 <package name="QFN48">
-<rectangle x1="-2.29" y1="0.51" x2="-0.51" y2="2.29" layer="31"/>
-<rectangle x1="0.51" y1="0.51" x2="2.29" y2="2.29" layer="31"/>
-<rectangle x1="-2.29" y1="-2.29" x2="-0.51" y2="-0.51" layer="31"/>
-<rectangle x1="0.51" y1="-2.29" x2="2.29" y2="-0.51" layer="31"/>
 <text x="-4.42" y="-5.115" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
 <text x="-4.42" y="5.115" size="1.27" layer="25">&gt;NAME</text>
 <circle x="-4.5" y="2.75" radius="0.1" width="0.2" layer="21"/>
@@ -471,7 +467,7 @@
 <smd name="34" x="3.43" y="1.75" dx="0.87" dy="0.27" layer="1" roundness="25"/>
 <smd name="35" x="3.43" y="2.25" dx="0.87" dy="0.27" layer="1" roundness="25"/>
 <smd name="36" x="3.43" y="2.75" dx="0.87" dy="0.27" layer="1" roundness="25"/>
-<smd name="49" x="0" y="0" dx="4.5" dy="4.5" layer="1" cream="no"/>
+<smd name="49" x="0" y="0" dx="3" dy="3" layer="1" cream="no"/>
 </package>
 <package name="QFN28">
 <wire x1="-2.605" y1="2.0375" x2="-2.605" y2="1.8625" width="0.18" layer="51" curve="-180" cap="flat"/>
@@ -1134,7 +1130,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="STSPIN32F0" prefix="STSPIN32" uservalue="yes">
+<deviceset name="STSPIN32F0" prefix="U" uservalue="yes">
 <description>The STSPIN32F0 is a System-In-Package providing an integrated solution suitable for
 driving three-phase BLDC motors using different driving modes.</description>
 <gates>
@@ -1201,7 +1197,7 @@ driving three-phase BLDC motors using different driving modes.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SIG60">
+<deviceset name="SIG60" prefix="U">
 <gates>
 <gate name="G$1" symbol="SIG60" x="0" y="0"/>
 </gates>
