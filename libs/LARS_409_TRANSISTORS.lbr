@@ -548,7 +548,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="N-CANNEL" prefix="VT1">
+<deviceset name="N-CANNEL" prefix="VT">
 <gates>
 <gate name="G$1" symbol="N-CANNEL" x="0" y="0"/>
 </gates>
@@ -605,7 +605,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="P-CANNEL" prefix="VT1">
+<deviceset name="P-CANNEL" prefix="VT">
 <gates>
 <gate name="G$1" symbol="P-CANNEL" x="0" y="0"/>
 </gates>
@@ -642,7 +642,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="NPN" prefix="VT1">
+<deviceset name="NPN" prefix="VT">
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
 </gates>
@@ -679,7 +679,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="PNP" prefix="VT1">
+<deviceset name="PNP" prefix="VT">
 <gates>
 <gate name="G$1" symbol="PNP" x="0" y="0"/>
 </gates>
@@ -716,7 +716,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MBT3904" prefix="VT1" uservalue="yes">
+<deviceset name="MBT3904" prefix="VT" uservalue="yes">
 <gates>
 <gate name=" " symbol="MBT3904" x="-2.54" y="10.16" swaplevel="1"/>
 <gate name="  " symbol="MBT3904" x="-2.54" y="-7.62" swaplevel="1"/>

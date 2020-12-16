@@ -378,7 +378,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DIODE" prefix="VD1">
+<deviceset name="DIODE" prefix="VD">
 <gates>
 <gate name="G$1" symbol="DIODE" x="0" y="0"/>
 </gates>
@@ -421,7 +421,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ZENER-DIODES" prefix="ZD1" uservalue="yes">
+<deviceset name="ZENER-DIODES" prefix="ZD" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="ZENER-DIODE" x="0" y="0"/>
 </gates>
@@ -455,7 +455,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BAV23" prefix="VD1">
+<deviceset name="BAV23" prefix="VD">
 <gates>
 <gate name="G$1" symbol="BAV23" x="0" y="-2.54"/>
 </gates>
@@ -472,7 +472,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NUP" prefix="D">
+<deviceset name="NUP" prefix="VD">
 <gates>
 <gate name="G$1" symbol="NUP" x="0" y="0"/>
 </gates>
