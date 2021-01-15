@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -95,6 +95,22 @@
 <wire x1="-4.02" y1="-2.02" x2="-4.02" y2="-0.02" width="0.127" layer="21"/>
 <wire x1="-4.02" y1="-0.02" x2="-4.02" y2="1.98" width="0.127" layer="21"/>
 </package>
+<package name="FUSER_MF-MSMF250/16X">
+<wire x1="-2.275" y1="1.62" x2="-2.275" y2="-1.62" width="0.127" layer="51"/>
+<wire x1="-2.275" y1="-1.62" x2="2.275" y2="-1.62" width="0.127" layer="51"/>
+<wire x1="2.275" y1="-1.62" x2="2.275" y2="1.62" width="0.127" layer="51"/>
+<wire x1="2.275" y1="1.62" x2="-2.275" y2="1.62" width="0.127" layer="51"/>
+<wire x1="2.275" y1="1.9135" x2="-2.275" y2="1.9135" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="1.977" x2="3.1" y2="1.977" width="0.05" layer="39"/>
+<wire x1="3.1" y1="1.977" x2="3.1" y2="-1.977" width="0.05" layer="39"/>
+<wire x1="3.1" y1="-1.977" x2="-3.1" y2="-1.977" width="0.05" layer="39"/>
+<wire x1="-3.1" y1="-1.977" x2="-3.1" y2="1.977" width="0.05" layer="39"/>
+<text x="-3" y="2.25" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-2.25" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-2.275" y1="-1.9135" x2="2.275" y2="-1.9135" width="0.127" layer="21"/>
+<smd name="1" x="-2.1" y="0" dx="1.5" dy="3.2" layer="1"/>
+<smd name="2" x="2.1" y="0" dx="1.5" dy="3.2" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FUSE">
@@ -105,6 +121,16 @@
 <pin name="IN" x="-10.16" y="0" visible="off" length="middle"/>
 <pin name="OUT" x="10.16" y="0" visible="off" length="middle" rot="R180"/>
 <text x="-3.302" y="-0.762" size="1.778" layer="94">FUSE</text>
+</symbol>
+<symbol name="MF-MSMF250/16X">
+<text x="-2.54" y="5.08" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-3.81" y1="0" x2="0" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="3.81" y2="0" width="0.1524" layer="94" curve="180"/>
+<wire x1="5.08" y1="0" x2="3.81" y2="0" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-3.81" y2="0" width="0.1524" layer="94"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -129,6 +155,29 @@
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MF-MSMF250/16X" prefix="F">
+<gates>
+<gate name="G$1" symbol="MF-MSMF250/16X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FUSER_MF-MSMF250/16X">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" Polymeric PTC Resettable Fuse 16V 2.5A Ih Surface Mount 1812 (4532 Metric), Concave "/>
+<attribute name="MF" value="Bourns"/>
+<attribute name="MP" value="MF-MSMF250/16X"/>
+<attribute name="PACKAGE" value="1812 Bourns"/>
+<attribute name="PRICE" value="None"/>
+</technology>
 </technologies>
 </device>
 </devices>
