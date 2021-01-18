@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -95,6 +95,22 @@
 <wire x1="-4.02" y1="-2.02" x2="-4.02" y2="-0.02" width="0.127" layer="21"/>
 <wire x1="-4.02" y1="-0.02" x2="-4.02" y2="1.98" width="0.127" layer="21"/>
 </package>
+<package name="MF-MSMF250">
+<wire x1="-2.275" y1="1.62" x2="-2.275" y2="-1.62" width="0.127" layer="51"/>
+<wire x1="-2.275" y1="-1.62" x2="2.275" y2="-1.62" width="0.127" layer="51"/>
+<wire x1="2.275" y1="-1.62" x2="2.275" y2="1.62" width="0.127" layer="51"/>
+<wire x1="2.275" y1="1.62" x2="-2.275" y2="1.62" width="0.127" layer="51"/>
+<wire x1="2.275" y1="1.9135" x2="-2.275" y2="1.9135" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="1.977" x2="3.1" y2="1.977" width="0.05" layer="39"/>
+<wire x1="3.1" y1="1.977" x2="3.1" y2="-1.977" width="0.05" layer="39"/>
+<wire x1="3.1" y1="-1.977" x2="-3.1" y2="-1.977" width="0.05" layer="39"/>
+<wire x1="-3.1" y1="-1.977" x2="-3.1" y2="1.977" width="0.05" layer="39"/>
+<text x="-3" y="2.25" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-2.25" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-2.275" y1="-1.9135" x2="2.275" y2="-1.9135" width="0.127" layer="21"/>
+<smd name="1" x="-2.1" y="0" dx="1.5" dy="3.2" layer="1"/>
+<smd name="2" x="2.1" y="0" dx="1.5" dy="3.2" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FUSE">
@@ -126,6 +142,22 @@
 <connects>
 <connect gate="G$1" pin="IN" pad="P$1"/>
 <connect gate="G$1" pin="OUT" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FUSE-SMD">
+<gates>
+<gate name="G$1" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MF-MSMF250">
+<connects>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
