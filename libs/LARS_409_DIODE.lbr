@@ -286,6 +286,18 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <wire x1="-1.46" y1="0.9" x2="2.39" y2="0.9" width="0.1524" layer="21"/>
 <wire x1="2.39" y1="-0.9" x2="-1.46" y2="-0.9" width="0.1524" layer="21"/>
 </package>
+<package name="DIP">
+<wire x1="-5.587" y1="0" x2="-4.317" y2="0" width="0.15" layer="21"/>
+<wire x1="4.317" y1="0" x2="5.587" y2="0" width="0.15" layer="21"/>
+<wire x1="-4.317" y1="1.745" x2="4.317" y2="1.745" width="0.15" layer="21"/>
+<wire x1="-4.317" y1="-1.745" x2="-4.317" y2="1.745" width="0.15" layer="21"/>
+<wire x1="-4.317" y1="-1.745" x2="4.317" y2="-1.745" width="0.15" layer="21"/>
+<wire x1="4.317" y1="-1.745" x2="4.317" y2="1.745" width="0.15" layer="21"/>
+<wire x1="-3.047" y1="-1.745" x2="-3.047" y2="1.745" width="0.15" layer="21"/>
+<text x="-8.787" y="1.745" size="1" layer="25">&gt;NAME</text>
+<pad name="1" x="-6.887" y="0" drill="1.3" diameter="2.4"/>
+<pad name="2" x="6.887" y="0" drill="1.3" diameter="2.4"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE">
@@ -445,6 +457,15 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </technologies>
 </device>
 <device name="SMC" package="SMC">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DIP" package="DIP">
 <connects>
 <connect gate="G$1" pin="A" pad="2"/>
 <connect gate="G$1" pin="C" pad="1"/>
