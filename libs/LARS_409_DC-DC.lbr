@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -398,48 +398,15 @@
 <wire x1="-1.397" y1="0.254" x2="-1.397" y2="0.381" width="0.3048" layer="21"/>
 <wire x1="-1.397" y1="0.381" x2="1.397" y2="0.381" width="0.3048" layer="21"/>
 </package>
-<package name="HSOIC(8)">
-<rectangle x1="-1.2" y1="-1.55" x2="1.2" y2="1.55" layer="31"/>
-<circle x="-4.47" y="2.205" radius="0.1" width="0.2" layer="21"/>
-<circle x="-4.47" y="2.205" radius="0.1" width="0.2" layer="51"/>
-<wire x1="-1.95" y1="-2.45" x2="1.95" y2="-2.45" width="0.127" layer="51"/>
-<wire x1="-1.95" y1="2.45" x2="-1.95" y2="-2.45" width="0.127" layer="51"/>
-<wire x1="1.95" y1="2.45" x2="1.95" y2="-2.45" width="0.127" layer="51"/>
-<wire x1="-4.225" y1="2.7" x2="4.225" y2="2.7" width="0.05" layer="39"/>
-<wire x1="-4.225" y1="-2.7" x2="4.225" y2="-2.7" width="0.05" layer="39"/>
-<wire x1="-4.225" y1="2.7" x2="-4.225" y2="-2.7" width="0.05" layer="39"/>
-<wire x1="4.225" y1="2.7" x2="4.225" y2="-2.7" width="0.05" layer="39"/>
-<text x="-3.25" y="-3" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<text x="-3.25" y="3" size="1.27" layer="25">&gt;NAME</text>
-<rectangle x1="-1.2" y1="-1.55" x2="1.2" y2="1.55" layer="29"/>
-<wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.127" layer="51"/>
-<wire x1="-1.95" y1="-2.475" x2="1.95" y2="-2.475" width="0.127" layer="21"/>
-<wire x1="-1.95" y1="2.525" x2="1.95" y2="2.525" width="0.127" layer="21"/>
-<rectangle x1="-3.95" y1="1.68" x2="-1.8" y2="2.13" layer="31"/>
-<rectangle x1="-3.95" y1="0.41" x2="-1.8" y2="0.86" layer="31"/>
-<rectangle x1="-3.95" y1="-0.86" x2="-1.8" y2="-0.41" layer="31"/>
-<rectangle x1="-3.95" y1="-2.13" x2="-1.8" y2="-1.68" layer="31"/>
-<rectangle x1="1.8" y1="1.68" x2="3.95" y2="2.13" layer="31"/>
-<rectangle x1="1.8" y1="0.41" x2="3.95" y2="0.86" layer="31"/>
-<rectangle x1="1.8" y1="-0.86" x2="3.95" y2="-0.41" layer="31"/>
-<rectangle x1="1.8" y1="-2.13" x2="3.95" y2="-1.68" layer="31"/>
-<rectangle x1="-4.045" y1="1.585" x2="-1.705" y2="2.225" layer="29"/>
-<rectangle x1="-4.045" y1="0.315" x2="-1.705" y2="0.955" layer="29"/>
-<rectangle x1="-4.045" y1="-0.955" x2="-1.705" y2="-0.315" layer="29"/>
-<rectangle x1="-4.045" y1="-2.225" x2="-1.705" y2="-1.585" layer="29"/>
-<rectangle x1="1.705" y1="1.585" x2="4.045" y2="2.225" layer="29"/>
-<rectangle x1="1.705" y1="0.315" x2="4.045" y2="0.955" layer="29"/>
-<rectangle x1="1.705" y1="-0.955" x2="4.045" y2="-0.315" layer="29"/>
-<rectangle x1="1.705" y1="-2.225" x2="4.045" y2="-1.585" layer="29"/>
-<smd name="1" x="-2.875" y="1.905" dx="2.2" dy="0.5" layer="1" stop="no" cream="no"/>
-<smd name="2" x="-2.875" y="0.635" dx="2.2" dy="0.5" layer="1" stop="no" cream="no"/>
-<smd name="3" x="-2.875" y="-0.635" dx="2.2" dy="0.5" layer="1" stop="no" cream="no"/>
-<smd name="4" x="-2.875" y="-1.905" dx="2.2" dy="0.5" layer="1" stop="no" cream="no"/>
-<smd name="5" x="2.875" y="-1.905" dx="2.2" dy="0.5" layer="1" roundness="10" stop="no" cream="no"/>
-<smd name="6" x="2.875" y="-0.635" dx="2.2" dy="0.5" layer="1" roundness="10" stop="no" cream="no"/>
-<smd name="7" x="2.875" y="0.635" dx="2.2" dy="0.5" layer="1" roundness="10" stop="no" cream="no"/>
-<smd name="8" x="2.875" y="1.905" dx="2.2" dy="0.5" layer="1" roundness="10" stop="no" cream="no"/>
-<smd name="9" x="0" y="0" dx="2.4" dy="3.1" layer="1" stop="no" cream="no"/>
+<package name="XL4015E1">
+<pad name="IN-" x="0.6" y="-0.6" drill="3" shape="square"/>
+<pad name="IN+" x="22.9" y="-0.6" drill="3" shape="square"/>
+<pad name="OUT-" x="0.6" y="-47.4" drill="3" shape="square" rot="R180"/>
+<pad name="OUT+" x="22.9" y="-47.4" drill="3" shape="square" rot="R180"/>
+<wire x1="-1.5" y1="1.5" x2="25" y2="1.5" width="0.1524" layer="21"/>
+<wire x1="25" y1="1.5" x2="25" y2="-49.5" width="0.1524" layer="21"/>
+<wire x1="25" y1="-49.5" x2="-1.5" y2="-49.5" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="-49.5" x2="-1.5" y2="1.5" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -540,26 +507,19 @@
 <wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.1524" layer="94"/>
 <text x="-5.08" y="7.62" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
-<symbol name="TPS54560B">
-<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
-<text x="-10.16" y="13.7" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-10.16" y="-14.16" size="2.0828" layer="96" ratio="10" rot="SR0" align="top-left">&gt;VALUE</text>
-<pin name="VIN" x="-15.24" y="2.54" length="middle" direction="pwr"/>
-<pin name="BOOT" x="-15.24" y="7.62" length="middle" direction="out"/>
-<pin name="COMP" x="15.24" y="-2.54" length="middle" direction="out" rot="R180"/>
-<pin name="EN" x="-15.24" y="-2.54" length="middle" direction="in"/>
-<pin name="FB" x="15.24" y="-7.62" length="middle" direction="in" rot="R180"/>
-<pin name="RT/CLK" x="-15.24" y="-7.62" length="middle" direction="in"/>
-<pin name="SW" x="15.24" y="7.62" length="middle" direction="in" rot="R180"/>
-<pin name="GND" x="15.24" y="2.54" length="middle" direction="pwr" rot="R180"/>
-<pin name="THERMAL_PAD" x="0" y="-17.78" length="middle" direction="pwr" rot="R90"/>
+<symbol name="XL4015E1">
+<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="10.16" x2="5.08" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-5.08" y2="-10.16" width="0.1524" layer="94"/>
+<pin name="IN-" x="-2.54" y="15.24" visible="pin" length="middle" rot="R270"/>
+<pin name="IN+" x="2.54" y="15.24" visible="pin" length="middle" rot="R270"/>
+<pin name="OUT+" x="-2.54" y="-15.24" visible="pin" length="middle" rot="R90"/>
+<pin name="OUT-" x="2.54" y="-15.24" visible="pin" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LM3481" prefix="U">
+<deviceset name="LM3481" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="LM3481" x="0" y="0"/>
 </gates>
@@ -725,22 +685,17 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TPS54560">
+<deviceset name="XL4015E1" prefix="U" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="TPS54560B" x="0" y="0"/>
+<gate name="G$1" symbol="XL4015E1" x="-10.16" y="-12.7"/>
 </gates>
 <devices>
-<device name="" package="HSOIC(8)">
+<device name="XL4015E1" package="XL4015E1">
 <connects>
-<connect gate="G$1" pin="BOOT" pad="1"/>
-<connect gate="G$1" pin="COMP" pad="6"/>
-<connect gate="G$1" pin="EN" pad="3"/>
-<connect gate="G$1" pin="FB" pad="5"/>
-<connect gate="G$1" pin="GND" pad="7"/>
-<connect gate="G$1" pin="RT/CLK" pad="4"/>
-<connect gate="G$1" pin="SW" pad="8"/>
-<connect gate="G$1" pin="THERMAL_PAD" pad="9"/>
-<connect gate="G$1" pin="VIN" pad="2"/>
+<connect gate="G$1" pin="IN+" pad="IN+"/>
+<connect gate="G$1" pin="IN-" pad="IN-"/>
+<connect gate="G$1" pin="OUT+" pad="OUT+"/>
+<connect gate="G$1" pin="OUT-" pad="OUT-"/>
 </connects>
 <technologies>
 <technology name=""/>

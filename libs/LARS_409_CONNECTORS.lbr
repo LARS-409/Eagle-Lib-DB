@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -1433,6 +1433,61 @@ Source: http://www.molex.com</description>
 <pad name="P$2" x="1.2822" y="6.0198" drill="2.3"/>
 <text x="9.06" y="3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
+<package name="62650-1">
+<pad name="1" x="0" y="0" drill="1.45" shape="long"/>
+<pad name="2" x="5.08" y="0" drill="1.45" shape="long"/>
+<wire x1="-2" y1="1.4" x2="7" y2="1.4" width="0.1524" layer="21"/>
+<wire x1="7" y1="1.4" x2="7" y2="-1.4" width="0.1524" layer="21"/>
+<wire x1="7" y1="-1.4" x2="-2" y2="-1.4" width="0.1524" layer="21"/>
+<wire x1="-2" y1="-1.4" x2="-2" y2="1.4" width="0.1524" layer="21"/>
+</package>
+<package name="JST_S5B-EN(LF)(SN)">
+<wire x1="-7.5" y1="6.6" x2="7.5" y2="6.6" width="0.127" layer="21"/>
+<wire x1="7.5" y1="6.6" x2="7.5" y2="-1.52" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-1.52" x2="-7.5" y2="-1.52" width="0.127" layer="21"/>
+<wire x1="-7.5" y1="-1.52" x2="-7.5" y2="6.6" width="0.127" layer="21"/>
+<wire x1="-7.65" y1="6.8" x2="-7.65" y2="-1.7" width="0.05" layer="39"/>
+<wire x1="-7.65" y1="-1.7" x2="7.65" y2="-1.7" width="0.05" layer="39"/>
+<wire x1="7.65" y1="-1.7" x2="7.65" y2="6.8" width="0.05" layer="39"/>
+<wire x1="7.65" y1="6.8" x2="-7.65" y2="6.8" width="0.05" layer="39"/>
+<circle x="-8.83" y="0" radius="0.1" width="0.2" layer="21"/>
+<text x="-7.485740625" y="7.136409375" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.202340625" y="-3.223059375" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-7.5" y1="6.6" x2="7.5" y2="6.6" width="0.127" layer="51"/>
+<wire x1="7.5" y1="6.6" x2="7.5" y2="-1.52" width="0.127" layer="51"/>
+<wire x1="7.5" y1="-1.52" x2="-7.5" y2="-1.52" width="0.127" layer="51"/>
+<wire x1="-7.5" y1="-1.52" x2="-7.5" y2="6.6" width="0.127" layer="51"/>
+<circle x="-8.83" y="0" radius="0.1" width="0.2" layer="51"/>
+<pad name="1" x="-5" y="0" drill="1" diameter="1.5" shape="square"/>
+<pad name="2" x="-2.5" y="0" drill="1" diameter="1.5"/>
+<pad name="3" x="0" y="0" drill="1" diameter="1.5"/>
+<pad name="4" x="2.5" y="0" drill="1" diameter="1.5"/>
+<pad name="5" x="5" y="0" drill="1" diameter="1.5"/>
+</package>
+<package name="JST_S6B-EH(LF)(SN)">
+<wire x1="-7.5" y1="6.7" x2="10" y2="6.7" width="0.127" layer="21"/>
+<wire x1="10" y1="6.7" x2="10" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="10" y1="-1.5" x2="-7.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-7.5" y1="-1.5" x2="-7.5" y2="6.7" width="0.127" layer="21"/>
+<wire x1="-7.7" y1="6.95" x2="-7.7" y2="-1.75" width="0.05" layer="39"/>
+<wire x1="-7.7" y1="-1.75" x2="10.17" y2="-1.75" width="0.05" layer="39"/>
+<wire x1="10.17" y1="-1.75" x2="10.17" y2="6.95" width="0.05" layer="39"/>
+<wire x1="10.17" y1="6.95" x2="-7.7" y2="6.95" width="0.05" layer="39"/>
+<circle x="-8.83" y="-0.1" radius="0.1" width="0.2" layer="21"/>
+<text x="-6.985740625" y="3.956409375" size="1.27" layer="25">&gt;NAME</text>
+<text x="-7.282340625" y="1.796940625" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-7.5" y1="6.7" x2="10" y2="6.7" width="0.127" layer="51"/>
+<wire x1="10" y1="6.7" x2="10" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="10" y1="-1.5" x2="-7.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-7.5" y1="-1.5" x2="-7.5" y2="6.7" width="0.127" layer="51"/>
+<circle x="-8.83" y="-0.1" radius="0.1" width="0.2" layer="51"/>
+<pad name="1" x="-5" y="0" drill="1" diameter="1.5" shape="square"/>
+<pad name="2" x="-2.5" y="0" drill="1" diameter="1.5"/>
+<pad name="3" x="0" y="0" drill="1" diameter="1.5"/>
+<pad name="4" x="2.5" y="0" drill="1" diameter="1.5"/>
+<pad name="5" x="5" y="0" drill="1" diameter="1.5"/>
+<pad name="6" x="7.5" y="0" drill="1" diameter="1.5"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CONN_01">
@@ -1666,7 +1721,7 @@ Source: http://www.molex.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1X2" prefix="X">
+<deviceset name="1X2" prefix="X" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="CONN_02" x="0" y="0"/>
 </gates>
@@ -1717,6 +1772,15 @@ Source: http://www.molex.com</description>
 </technologies>
 </device>
 <device name="W237-102" package="W237-102">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="62650" package="62650-1">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1856,7 +1920,7 @@ Source: http://www.molex.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1X5" prefix="X">
+<deviceset name="1X5" prefix="X" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="CONN_05" x="5.08" y="0"/>
 </gates>
@@ -1909,9 +1973,21 @@ Source: http://www.molex.com</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="JST_S5B-EN(LF)(SN)" package="JST_S5B-EN(LF)(SN)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
-<deviceset name="1X6" prefix="X">
+<deviceset name="1X6" prefix="X" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="CONN_06" x="2.54" y="0"/>
 </gates>
@@ -1995,6 +2071,19 @@ Source: http://www.molex.com</description>
 </technologies>
 </device>
 <device name="MOLEX-2X3V" package="MOLEX-2X3V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JST_S6B-EN(LF)(SN)" package="JST_S6B-EH(LF)(SN)">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
