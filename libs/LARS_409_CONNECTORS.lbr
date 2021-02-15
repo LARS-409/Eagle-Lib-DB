@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -1433,6 +1433,20 @@ Source: http://www.molex.com</description>
 <pad name="P$2" x="1.2822" y="6.0198" drill="2.3"/>
 <text x="9.06" y="3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
+<package name="MOLEX-2X2H">
+<pad name="P$1" x="-2" y="-7.3" drill="2" diameter="3.2" shape="offset" rot="R90"/>
+<pad name="P$2" x="2.2" y="-7.3" drill="2" diameter="3.2" shape="offset" rot="R90"/>
+<pad name="P$3" x="-2" y="-12.8" drill="2" diameter="3.2" shape="offset" rot="R270"/>
+<pad name="P$4" x="2.2" y="-12.8" drill="2" diameter="3.2" shape="offset" rot="R270"/>
+<hole x="0" y="0" drill="2.2"/>
+<wire x1="-4.7" y1="-6.2" x2="-4.7" y2="5.7" width="0.127" layer="21"/>
+<wire x1="-4.7" y1="5.7" x2="-4.7" y2="6.6" width="0.127" layer="21"/>
+<wire x1="4.9" y1="-6.2" x2="4.9" y2="5.7" width="0.127" layer="21"/>
+<wire x1="4.9" y1="5.7" x2="4.9" y2="6.6" width="0.127" layer="21"/>
+<wire x1="-4.7" y1="-6.2" x2="4.9" y2="-6.2" width="0.127" layer="21"/>
+<wire x1="-4.7" y1="6.6" x2="4.9" y2="6.6" width="0.127" layer="21"/>
+<wire x1="-4.7" y1="5.7" x2="4.9" y2="5.7" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CONN_01">
@@ -1849,6 +1863,17 @@ Source: http://www.molex.com</description>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MOLEX-2X2H" package="MOLEX-2X2H">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
 </connects>
 <technologies>
 <technology name=""/>
