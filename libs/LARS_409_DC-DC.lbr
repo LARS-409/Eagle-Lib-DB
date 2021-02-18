@@ -562,10 +562,10 @@
 <pin name="BOOT" x="-15.24" y="7.62" length="middle" direction="out"/>
 <pin name="COMP" x="15.24" y="-2.54" length="middle" direction="out" rot="R180"/>
 <pin name="EN" x="-15.24" y="-2.54" length="middle" direction="in"/>
-<pin name="FB" x="15.24" y="-7.62" length="middle" direction="in" rot="R180"/>
+<pin name="FB" x="15.24" y="2.54" length="middle" direction="in" rot="R180"/>
 <pin name="RT/CLK" x="-15.24" y="-7.62" length="middle" direction="in"/>
 <pin name="SW" x="15.24" y="7.62" length="middle" direction="in" rot="R180"/>
-<pin name="GND" x="15.24" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="15.24" y="-7.62" length="middle" direction="pwr" rot="R180"/>
 <pin name="THERMAL_PAD" x="0" y="-17.78" length="middle" direction="pwr" rot="R90"/>
 </symbol>
 </symbols>
