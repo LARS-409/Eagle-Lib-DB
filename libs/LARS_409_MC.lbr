@@ -1727,7 +1727,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="HX711">
+<deviceset name="HX711" prefix="U">
 <gates>
 <gate name="G$1" symbol="HX711" x="0" y="0"/>
 </gates>
