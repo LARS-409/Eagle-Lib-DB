@@ -85,7 +85,7 @@
 </layers>
 <library>
 <packages>
-<package name="0603" urn="urn:adsk.eagle:footprint:24653006/1">
+<package name="0603" urn="urn:adsk.eagle:footprint:24653006/1" locally_modified="yes">
 <smd name="P$1" x="-0.827" y="0" dx="1.2" dy="0.6" layer="1"/>
 <smd name="P$2" x="0.827" y="0" dx="1.2" dy="0.6" layer="1"/>
 <wire x1="-0.8" y1="0.5" x2="0.8" y2="0.5" width="0.145" layer="21"/>
