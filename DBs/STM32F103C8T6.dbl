@@ -1306,12 +1306,18 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <junction x="99.06" y="-15.24"/>
 <pinref part="U1" gate="G$1" pin="VDD"/>
 <wire x1="91.44" y1="-15.24" x2="91.44" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="15.24" x2="71.12" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="15.24" x2="81.28" y2="15.24" width="0.1524" layer="91"/>
 <junction x="91.44" y="-15.24"/>
 <pinref part="U1" gate="G$1" pin="VDDA"/>
+<wire x1="81.28" y1="15.24" x2="71.12" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="17.78" x2="71.12" y2="15.24" width="0.1524" layer="91"/>
 <junction x="71.12" y="15.24"/>
 <label x="91.44" y="15.24" size="1.778" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="VBAT"/>
+<wire x1="20.32" y1="10.16" x2="20.32" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="22.86" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="22.86" x2="81.28" y2="15.24" width="0.1524" layer="91"/>
+<junction x="81.28" y="15.24"/>
 </segment>
 <segment>
 <wire x1="-20.32" y1="-55.88" x2="0" y2="-55.88" width="0.1524" layer="91"/>
@@ -2291,6 +2297,9 @@ design rules under a new name.</description>
 <wire x1="-10.56" y1="-36.91" x2="-10.097" y2="-37.373" width="0.254" layer="16"/>
 <via x="-10.097" y="-37.373" extent="1-16" drill="0.3"/>
 <wire x1="-10.56" y1="-34.27" x2="-10.56" y2="-36.91" width="0.254" layer="16"/>
+<contactref element="U1" pad="1"/>
+<wire x1="-21.96" y1="-39.16" x2="-21.96" y2="-37.387" width="0.1524" layer="1"/>
+<wire x1="-21.96" y1="-37.387" x2="-21.6" y2="-37.027" width="0.1524" layer="1"/>
 <wire x1="-27.4" y1="-45.827" x2="-45.5" y2="-33.24" width="0" layer="19" extent="1-1"/>
 <wire x1="-20.48" y1="-21.93" x2="-19.55" y2="-32.72" width="0" layer="19" extent="1-1"/>
 </signal>
