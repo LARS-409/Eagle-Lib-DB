@@ -4,7 +4,7 @@
 <designblock>
 <description></description>
 <attributes>
-<attribute name="BOARDSIZE" value="8.6 x 9.6 mm"/>
+<attribute name="BOARDSIZE" value="8.5 x 9.6 mm"/>
 <attribute name="LAYERS" value="2: 1, 16"/>
 </attributes>
 <drawings>
@@ -864,8 +864,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-0.07" y="-3.17" size="0.6" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R2" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="4.7 K" x="2.38" y="-1.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="1.39" y="0.35" size="0.6" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="3.78" y="-2.37" size="0.6" layer="27" font="vector" rot="R90"/>
+<attribute name="NAME" x="3.64" y="-0.88" size="0.6" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="3.68" y="-3.36" size="0.6" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C1" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="0.1 uF" x="0.98" y="2.15" smashed="yes">
 <attribute name="NAME" x="0.75" y="3.69" size="0.6" layer="25" font="vector"/>
@@ -876,7 +876,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-3.79" y="-0.37" size="0.6" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R4" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="0 K" x="-2.49" y="1.6" smashed="yes" rot="R270">
-<attribute name="NAME" x="-3.17" y="0.98" size="0.6" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="-3.21" y="1" size="0.6" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="-3.79" y="3.2" size="0.6" layer="27" font="vector" rot="R270"/>
 </element>
 </elements>
