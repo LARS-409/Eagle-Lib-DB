@@ -400,6 +400,13 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <sheet>
 <plain>
 <text x="-27.94" y="25.4" size="1.778" layer="91">I2C адрес на пине sdo при GND: "0", Vddio: "1" </text>
+<wire x1="-25.4" y1="17.78" x2="-20.32" y2="17.78" width="0.1524" layer="90"/>
+<wire x1="-20.32" y1="17.78" x2="-20.32" y2="-22.86" width="0.1524" layer="90"/>
+<wire x1="-20.32" y1="-22.86" x2="-25.4" y2="-22.86" width="0.1524" layer="90"/>
+<wire x1="-25.4" y1="-22.86" x2="-25.4" y2="17.78" width="0.1524" layer="90"/>
+<wire x1="-20.32" y1="17.78" x2="-17.78" y2="20.32" width="0.1524" layer="90"/>
+<text x="-17.78" y="20.574" size="1.778" layer="90">Ставить в зависимости от требуемого адреса.</text>
+<wire x1="-17.78" y1="20.32" x2="35.56" y2="20.32" width="0.1524" layer="90"/>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="0" y="0" smashed="yes">
