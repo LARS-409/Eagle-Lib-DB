@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -589,16 +589,16 @@
 <pin name="PA2" x="0" y="-17.78" length="middle"/>
 <pin name="PA3" x="0" y="-20.32" length="middle"/>
 <pin name="PA4" x="0" y="-22.86" length="middle"/>
-<pin name="PA14" x="45.72" y="-22.86" length="middle" rot="R180"/>
-<pin name="PA13" x="45.72" y="-20.32" length="middle" rot="R180"/>
-<pin name="PA10_[PA12]" x="45.72" y="-17.78" length="middle" rot="R180"/>
-<pin name="PA9_[PA11]" x="45.72" y="-15.24" length="middle" rot="R180"/>
-<pin name="VDD" x="45.72" y="-12.7" length="middle" rot="R180"/>
-<pin name="VSS" x="45.72" y="-10.16" length="middle" rot="R180"/>
-<pin name="PB1" x="45.72" y="-7.62" length="middle" rot="R180"/>
-<pin name="PA7" x="45.72" y="-5.08" length="middle" rot="R180"/>
-<pin name="PA6" x="45.72" y="-2.54" length="middle" rot="R180"/>
-<pin name="PA5" x="45.72" y="0" length="middle" rot="R180"/>
+<pin name="PA14" x="45.72" y="0" length="middle" rot="R180"/>
+<pin name="PA13" x="45.72" y="-2.54" length="middle" rot="R180"/>
+<pin name="PA10_[PA12]" x="45.72" y="-5.08" length="middle" rot="R180"/>
+<pin name="PA9_[PA11]" x="45.72" y="-7.62" length="middle" rot="R180"/>
+<pin name="VDD" x="45.72" y="-10.16" length="middle" rot="R180"/>
+<pin name="VSS" x="45.72" y="-12.7" length="middle" rot="R180"/>
+<pin name="PB1" x="45.72" y="-15.24" length="middle" rot="R180"/>
+<pin name="PA7" x="45.72" y="-17.78" length="middle" rot="R180"/>
+<pin name="PA6" x="45.72" y="-20.32" length="middle" rot="R180"/>
+<pin name="PA5" x="45.72" y="-22.86" length="middle" rot="R180"/>
 </symbol>
 <symbol name="ESP32">
 <pin name="GND@1" x="-25.4" y="15.24" length="short"/>
