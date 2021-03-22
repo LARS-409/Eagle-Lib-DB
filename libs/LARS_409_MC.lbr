@@ -1246,7 +1246,7 @@
 <pin name="10" x="20.32" y="-40.64" visible="pad" length="middle" rot="R180"/>
 <circle x="7.62" y="12.7" radius="0.254" width="0.254" layer="94"/>
 <circle x="0" y="17.78" radius="0.254" width="0.254" layer="94"/>
-<pin name="8" x="5.08" y="-58.42" visible="pad" length="middle" rot="R90"/>
+<pin name="8" x="0" y="-55.88" visible="pad" length="middle"/>
 <pin name="9" x="5.08" y="33.02" visible="pad" length="middle" rot="R270"/>
 <text x="-2.54" y="30.48" size="1.27" layer="95">&gt;NAME</text>
 <text x="-23.114" y="-44.45" size="1.27" layer="96">&gt;VALUE</text>
@@ -1554,7 +1554,7 @@
 <wire x1="10.16" y1="-17.78" x2="10.16" y2="-27.94" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="-27.94" x2="10.16" y2="-38.1" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="-38.1" x2="10.16" y2="-48.26" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-48.26" x2="10.16" y2="-53.34" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-48.26" x2="10.16" y2="-55.88" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="2.54" x2="10.16" y2="2.54" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="-7.62" x2="10.16" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="-17.78" x2="10.16" y2="-17.78" width="0.1524" layer="94"/>
@@ -1562,7 +1562,7 @@
 <wire x1="7.62" y1="-38.1" x2="10.16" y2="-38.1" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="-48.26" x2="10.16" y2="-48.26" width="0.1524" layer="94"/>
 <wire x1="15.24" y1="-35.56" x2="15.24" y2="-25.4" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-53.34" x2="10.16" y2="-53.34" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-55.88" x2="10.16" y2="-55.88" width="0.1524" layer="94"/>
 <circle x="12.7" y="20.32" radius="0.254" width="0.254" layer="94"/>
 <circle x="12.7" y="10.16" radius="0.254" width="0.254" layer="94"/>
 <circle x="12.7" y="-10.16" radius="0.254" width="0.254" layer="94"/>
@@ -1608,7 +1608,7 @@
 <text x="-11.176" y="-20.32" size="1.778" layer="94">5in</text>
 <text x="-11.176" y="-30.48" size="1.778" layer="94">6in</text>
 <text x="-11.176" y="-40.64" size="1.778" layer="94">7in</text>
-<text x="7.366" y="-55.88" size="1.778" layer="94">Gnd</text>
+<text x="12.446" y="-53.34" size="1.778" layer="94">Gnd</text>
 <text x="7.62" y="28.702" size="1.778" layer="94">Vcc</text>
 <text x="18.542" y="22.86" size="1.778" layer="94">1out</text>
 <text x="18.542" y="12.7" size="1.778" layer="94">2out</text>
