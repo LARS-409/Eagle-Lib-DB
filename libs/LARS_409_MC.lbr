@@ -1249,7 +1249,7 @@
 <pin name="8" x="0" y="-55.88" visible="pad" length="middle"/>
 <pin name="9" x="5.08" y="33.02" visible="pad" length="middle" rot="R270"/>
 <text x="-2.54" y="30.48" size="1.27" layer="95">&gt;NAME</text>
-<text x="-23.114" y="-44.45" size="1.27" layer="96">&gt;VALUE</text>
+<text x="2.286" y="-59.69" size="1.27" layer="96">&gt;VALUE</text>
 <wire x1="5.08" y1="20.32" x2="7.62" y2="20.32" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="12.7" y2="20.32" width="0.1524" layer="94"/>
 <wire x1="12.7" y1="20.32" x2="15.24" y2="20.32" width="0.1524" layer="94"/>
