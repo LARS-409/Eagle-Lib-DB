@@ -1556,6 +1556,22 @@
 </technologies>
 </device>
 <device name="TSSOP" package="TSSOP-14">
+<connects>
+<connect gate="G$1" pin="!Q(2)" pad="12"/>
+<connect gate="G$1" pin="CLOCK(2)" pad="11"/>
+<connect gate="G$1" pin="D(2)\" pad="9"/>
+<connect gate="G$1" pin="Q(2)" pad="13"/>
+<connect gate="G$1" pin="RESET(2)" pad="10"/>
+<connect gate="G$1" pin="SET(2)" pad="8"/>
+<connect gate="G$1" pin="VDD" pad="14"/>
+<connect gate="G$1" pin="VSS" pad="7"/>
+<connect gate="G$2" pin="!Q(1)" pad="2"/>
+<connect gate="G$2" pin="CLOCK(1)" pad="3"/>
+<connect gate="G$2" pin="D(1)" pad="5"/>
+<connect gate="G$2" pin="Q(1)" pad="1"/>
+<connect gate="G$2" pin="RESET(1)" pad="4"/>
+<connect gate="G$2" pin="SET(1)" pad="6"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
