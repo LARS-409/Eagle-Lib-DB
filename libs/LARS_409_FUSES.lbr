@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -53,7 +53,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -118,14 +118,18 @@
 <wire x1="9.15" y1="-1.7" x2="9.15" y2="3.5" width="0.0762" layer="21"/>
 <wire x1="-9.15" y1="3.5" x2="9.15" y2="3.5" width="0.0762" layer="21"/>
 <wire x1="9.15" y1="-1.7" x2="-9.15" y2="-1.7" width="0.0762" layer="21"/>
-<wire x1="-1.35" y1="-0.8" x2="-1.35" y2="0.8" width="0.0762" layer="20"/>
-<wire x1="1.35" y1="-0.8" x2="1.35" y2="0.8" width="0.0762" layer="20"/>
-<wire x1="-7.95" y1="-0.8" x2="-7.95" y2="0.8" width="0.0762" layer="20"/>
-<wire x1="-7.95" y1="0.8" x2="-1.35" y2="0.8" width="0.0762" layer="20"/>
-<wire x1="-7.95" y1="-0.8" x2="-1.35" y2="-0.8" width="0.0762" layer="20"/>
-<wire x1="7.95" y1="-0.8" x2="7.95" y2="0.8" width="0.0762" layer="20"/>
-<wire x1="1.35" y1="0.8" x2="7.95" y2="0.8" width="0.0762" layer="20"/>
-<wire x1="1.35" y1="-0.8" x2="7.95" y2="-0.8" width="0.0762" layer="20"/>
+<wire x1="-2.15" y1="0.85" x2="-1.35" y2="0" width="0" layer="46" curve="-90"/>
+<wire x1="-2.15" y1="0.85" x2="-7.15" y2="0.85" width="0" layer="46"/>
+<wire x1="-7.15" y1="0.85" x2="-7.95" y2="0" width="0" layer="46" curve="90"/>
+<wire x1="-7.95" y1="0" x2="-7.15" y2="-0.85" width="0" layer="46" curve="90"/>
+<wire x1="-7.15" y1="-0.85" x2="-2.15" y2="-0.85" width="0" layer="46"/>
+<wire x1="-2.15" y1="-0.85" x2="-1.35" y2="0" width="0" layer="46" curve="90"/>
+<wire x1="7.15" y1="0.85" x2="7.95" y2="0" width="0" layer="46" curve="-90"/>
+<wire x1="7.15" y1="0.85" x2="2.15" y2="0.85" width="0" layer="46"/>
+<wire x1="2.15" y1="0.85" x2="1.35" y2="0" width="0" layer="46" curve="90"/>
+<wire x1="1.35" y1="0" x2="2.15" y2="-0.85" width="0" layer="46" curve="90"/>
+<wire x1="2.15" y1="-0.85" x2="7.15" y2="-0.85" width="0" layer="46"/>
+<wire x1="7.15" y1="-0.85" x2="7.95" y2="0" width="0" layer="46" curve="90"/>
 </package>
 <package name="8A250H">
 <pad name="P$1" x="-8.89" y="0" drill="0.8" shape="long"/>
