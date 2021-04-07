@@ -170,13 +170,13 @@
 <wire x1="10.9" y1="2.5" x2="10.9" y2="0.5" width="0.1524" layer="20"/>
 <wire x1="10.9" y1="0.5" x2="5.5" y2="0.5" width="0.1524" layer="20"/>
 <wire x1="5.5" y1="0.5" x2="5.5" y2="2.5" width="0.1524" layer="20"/>
-<smd name="P$1.ANT" x="1.5" y="0.27" dx="1.651" dy="4.572" layer="1" rot="R180"/>
-<smd name="P$2.GND" x="4.04" y="0.27" dx="1.651" dy="4.572" layer="1" rot="R180"/>
-<smd name="P$3.VCC" x="22.9" y="0.27" dx="1.651" dy="4.572" layer="1" rot="R180"/>
-<smd name="P$4.CS" x="25.44" y="0.27" dx="1.651" dy="4.572" layer="1" rot="R180"/>
-<smd name="P$5.DATA" x="27.98" y="0.27" dx="1.651" dy="4.572" layer="1" rot="R180"/>
-<smd name="P$6.GND" x="30.52" y="0.27" dx="1.651" dy="4.572" layer="1" rot="R180"/>
-<smd name="P$7.ANT" x="1.5" y="10.23" dx="1.651" dy="4.572" layer="1"/>
+<smd name="1" x="1.5" y="0.27" dx="1.651" dy="4.572" layer="1" rot="R180"/>
+<smd name="2" x="4.04" y="0.27" dx="1.651" dy="4.572" layer="1" rot="R180"/>
+<smd name="3" x="22.9" y="0.27" dx="1.651" dy="4.572" layer="1" rot="R180"/>
+<smd name="4" x="25.44" y="0.27" dx="1.651" dy="4.572" layer="1" rot="R180"/>
+<smd name="5" x="27.98" y="0.27" dx="1.651" dy="4.572" layer="1" rot="R180"/>
+<smd name="6" x="30.52" y="0.27" dx="1.651" dy="4.572" layer="1" rot="R180"/>
+<smd name="7" x="1.5" y="10.23" dx="1.651" dy="4.572" layer="1"/>
 <text x="13" y="5.46" size="1.778" layer="25">&gt;NAME</text>
 <wire x1="0" y1="0" x2="0" y2="10.4" width="0.1524" layer="27"/>
 <wire x1="5.5" y1="0" x2="21.5" y2="0" width="0.1524" layer="27"/>
@@ -233,17 +233,17 @@
 </packages>
 <symbols>
 <symbol name="SRX882">
-<pin name="ANT" x="-5.08" y="7.62" length="short"/>
-<pin name="GND" x="-5.08" y="5.08" length="short"/>
-<pin name="VCC" x="-5.08" y="2.54" length="short"/>
-<pin name="CS" x="-5.08" y="0" length="short"/>
-<pin name="DATA" x="-5.08" y="-2.54" length="short"/>
-<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="10.16" x2="5.08" y2="10.16" width="0.1524" layer="94"/>
+<pin name="ANT" x="-10.16" y="7.62" length="short"/>
+<pin name="GND" x="-10.16" y="5.08" length="short"/>
+<pin name="VCC" x="-10.16" y="2.54" length="short"/>
+<pin name="CS" x="-10.16" y="0" length="short"/>
+<pin name="DATA" x="-10.16" y="-2.54" length="short"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="5.08" y2="10.16" width="0.1524" layer="94"/>
 <wire x1="5.08" y1="10.16" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
-<text x="-2.794" y="11.176" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.302" y="-7.366" size="1.778" layer="95">SRX882</text>
+<wire x1="5.08" y1="-5.08" x2="-7.62" y2="-5.08" width="0.1524" layer="94"/>
+<text x="-7.874" y="11.176" size="1.778" layer="95">&gt;NAME</text>
+<text x="-8.382" y="-7.366" size="1.778" layer="95">SRX882</text>
 </symbol>
 <symbol name="STX882">
 <pin name="ANT" x="0" y="15.24" length="short"/>
@@ -278,11 +278,11 @@
 <devices>
 <device name="SRX882_MODULE" package="SRX882_MODULE">
 <connects>
-<connect gate="G$1" pin="ANT" pad="P$1.ANT P$7.ANT"/>
-<connect gate="G$1" pin="CS" pad="P$4.CS"/>
-<connect gate="G$1" pin="DATA" pad="P$5.DATA"/>
-<connect gate="G$1" pin="GND" pad="P$2.GND P$6.GND"/>
-<connect gate="G$1" pin="VCC" pad="P$3.VCC"/>
+<connect gate="G$1" pin="ANT" pad="1 7"/>
+<connect gate="G$1" pin="CS" pad="4"/>
+<connect gate="G$1" pin="DATA" pad="5"/>
+<connect gate="G$1" pin="GND" pad="2 6"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
