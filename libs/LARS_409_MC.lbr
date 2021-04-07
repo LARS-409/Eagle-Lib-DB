@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.04" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -650,47 +650,47 @@
 <wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.127" layer="51"/>
 <wire x1="-1.95" y1="-2.475" x2="1.95" y2="-2.475" width="0.127" layer="21"/>
 <wire x1="-1.95" y1="2.525" x2="1.95" y2="2.525" width="0.127" layer="21"/>
-<smd name="1" x="-2.875" y="1.905" dx="2.2" dy="0.5" layer="1" stop="no" cream="no"/>
-<smd name="2" x="-2.875" y="0.635" dx="2.2" dy="0.5" layer="1" stop="no" cream="no"/>
-<smd name="3" x="-2.875" y="-0.635" dx="2.2" dy="0.5" layer="1" stop="no" cream="no"/>
-<smd name="4" x="-2.875" y="-1.905" dx="2.2" dy="0.5" layer="1" stop="no" cream="no"/>
-<smd name="5" x="2.875" y="-1.905" dx="2.2" dy="0.5" layer="1" roundness="10" stop="no" cream="no"/>
-<smd name="6" x="2.875" y="-0.635" dx="2.2" dy="0.5" layer="1" roundness="10" stop="no" cream="no"/>
-<smd name="7" x="2.875" y="0.635" dx="2.2" dy="0.5" layer="1" roundness="10" stop="no" cream="no"/>
-<smd name="8" x="2.875" y="1.905" dx="2.2" dy="0.5" layer="1" roundness="10" stop="no" cream="no"/>
-<smd name="9" x="0" y="0" dx="2.4" dy="3.1" layer="1" stop="no" cream="no"/>
+<smd name="1" x="-2.875" y="1.905" dx="2.2" dy="0.5" layer="1" cream="no"/>
+<smd name="2" x="-2.875" y="0.635" dx="2.2" dy="0.5" layer="1" cream="no"/>
+<smd name="3" x="-2.875" y="-0.635" dx="2.2" dy="0.5" layer="1" cream="no"/>
+<smd name="4" x="-2.875" y="-1.905" dx="2.2" dy="0.5" layer="1" cream="no"/>
+<smd name="5" x="2.875" y="-1.905" dx="2.2" dy="0.5" layer="1" roundness="10" cream="no"/>
+<smd name="6" x="2.875" y="-0.635" dx="2.2" dy="0.5" layer="1" roundness="10" cream="no"/>
+<smd name="7" x="2.875" y="0.635" dx="2.2" dy="0.5" layer="1" roundness="10" cream="no"/>
+<smd name="8" x="2.875" y="1.905" dx="2.2" dy="0.5" layer="1" roundness="10" cream="no"/>
+<smd name="9" x="0" y="0" dx="2.2" dy="2.9" layer="1" cream="no"/>
 </package>
 <package name="SOIC-16">
-<wire x1="-1.17" y1="-5.595" x2="1.17" y2="-5.595" width="0.127" layer="21"/>
-<wire x1="-1.17" y1="4.325" x2="1.17" y2="4.325" width="0.127" layer="21"/>
-<wire x1="-1.95" y1="4.325" x2="1.95" y2="4.325" width="0.127" layer="51"/>
-<wire x1="1.95" y1="4.325" x2="1.95" y2="-5.595" width="0.127" layer="51"/>
-<wire x1="1.95" y1="-5.595" x2="-1.95" y2="-5.595" width="0.127" layer="51"/>
-<wire x1="-1.95" y1="-5.595" x2="-1.95" y2="4.325" width="0.127" layer="51"/>
-<text x="-3.6" y="4.8" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.6" y="-6.07" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<wire x1="-3.71" y1="4.575" x2="3.71" y2="4.575" width="0.05" layer="39"/>
-<wire x1="3.71" y1="4.575" x2="3.71" y2="-5.875" width="0.05" layer="39"/>
-<wire x1="3.71" y1="-5.875" x2="-3.71" y2="-5.875" width="0.05" layer="39"/>
-<wire x1="-3.71" y1="-5.875" x2="-3.71" y2="4.575" width="0.05" layer="39"/>
-<circle x="-4.05" y="4.1" radius="0.1" width="0.2" layer="21"/>
-<circle x="-4.05" y="4.1" radius="0.1" width="0.2" layer="51"/>
-<smd name="1" x="-2.475" y="3.81" dx="1.97" dy="0.6" layer="1" roundness="50"/>
-<smd name="2" x="-2.475" y="2.54" dx="1.97" dy="0.6" layer="1" roundness="50"/>
-<smd name="3" x="-2.475" y="1.27" dx="1.97" dy="0.6" layer="1" roundness="50"/>
-<smd name="4" x="-2.475" y="0" dx="1.97" dy="0.6" layer="1" roundness="50"/>
-<smd name="5" x="-2.475" y="-1.27" dx="1.97" dy="0.6" layer="1" roundness="50"/>
-<smd name="6" x="-2.475" y="-2.54" dx="1.97" dy="0.6" layer="1" roundness="50"/>
-<smd name="7" x="-2.475" y="-3.81" dx="1.97" dy="0.6" layer="1" roundness="50"/>
-<smd name="10" x="2.475" y="-3.81" dx="1.97" dy="0.6" layer="1" roundness="50"/>
-<smd name="11" x="2.475" y="-2.54" dx="1.97" dy="0.6" layer="1" roundness="50"/>
-<smd name="12" x="2.475" y="-1.27" dx="1.97" dy="0.6" layer="1" roundness="50"/>
-<smd name="13" x="2.475" y="0" dx="1.97" dy="0.6" layer="1" roundness="50"/>
-<smd name="14" x="2.475" y="1.27" dx="1.97" dy="0.6" layer="1" roundness="50"/>
-<smd name="15" x="2.475" y="2.54" dx="1.97" dy="0.6" layer="1" roundness="50"/>
-<smd name="16" x="2.475" y="3.81" dx="1.97" dy="0.6" layer="1" roundness="50"/>
-<smd name="8" x="-2.475" y="-5.08" dx="1.97" dy="0.6" layer="1" roundness="50"/>
-<smd name="9" x="2.475" y="-5.08" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<wire x1="-1.17" y1="-4.96" x2="1.17" y2="-4.96" width="0.127" layer="21"/>
+<wire x1="-1.17" y1="4.96" x2="1.17" y2="4.96" width="0.127" layer="21"/>
+<wire x1="-1.95" y1="4.96" x2="1.95" y2="4.96" width="0.127" layer="51"/>
+<wire x1="1.95" y1="4.96" x2="1.95" y2="-4.96" width="0.127" layer="51"/>
+<wire x1="1.95" y1="-4.96" x2="-1.95" y2="-4.96" width="0.127" layer="51"/>
+<wire x1="-1.95" y1="-4.96" x2="-1.95" y2="4.96" width="0.127" layer="51"/>
+<text x="-3.6" y="5.435" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.6" y="-5.435" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-3.71" y1="5.21" x2="3.71" y2="5.21" width="0.05" layer="39"/>
+<wire x1="3.71" y1="5.21" x2="3.71" y2="-5.24" width="0.05" layer="39"/>
+<wire x1="3.71" y1="-5.24" x2="-3.71" y2="-5.24" width="0.05" layer="39"/>
+<wire x1="-3.71" y1="-5.24" x2="-3.71" y2="5.21" width="0.05" layer="39"/>
+<circle x="-4.05" y="4.735" radius="0.1" width="0.2" layer="21"/>
+<circle x="-4.05" y="4.735" radius="0.1" width="0.2" layer="51"/>
+<smd name="1" x="-2.475" y="4.445" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="2" x="-2.475" y="3.175" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="3" x="-2.475" y="1.905" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="4" x="-2.475" y="0.635" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="5" x="-2.475" y="-0.635" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="6" x="-2.475" y="-1.905" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="7" x="-2.475" y="-3.175" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="10" x="2.475" y="-3.175" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="11" x="2.475" y="-1.905" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="12" x="2.475" y="-0.635" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="13" x="2.475" y="0.635" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="14" x="2.475" y="1.905" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="15" x="2.475" y="3.175" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="16" x="2.475" y="4.445" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="8" x="-2.475" y="-4.445" dx="1.97" dy="0.6" layer="1" roundness="50"/>
+<smd name="9" x="2.475" y="-4.445" dx="1.97" dy="0.6" layer="1" roundness="50"/>
 </package>
 </packages>
 <symbols>
