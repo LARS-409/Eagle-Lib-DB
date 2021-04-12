@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -36,25 +36,25 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -1234,9 +1234,9 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <pad name="P$1" x="-4.259" y="12.807" drill="2" diameter="3.5" shape="offset" rot="R90"/>
 <pad name="P$2" x="-0.059" y="12.807" drill="2" diameter="3.5" shape="offset" rot="R90"/>
 <pad name="P$3" x="4.141" y="12.807" drill="2" diameter="3.5" shape="offset" rot="R90"/>
-<pad name="P$4" x="-4.259" y="7.307" drill="2" diameter="3.5" shape="offset" rot="R270"/>
-<pad name="P$5" x="-0.059" y="7.307" drill="2" diameter="3.5" shape="offset" rot="R270"/>
-<pad name="P$6" x="4.141" y="7.307" drill="2" diameter="3.5" shape="offset" rot="R270"/>
+<pad name="P$4" x="-4.259" y="8.407" drill="2" diameter="3.5" shape="offset" rot="R270"/>
+<pad name="P$5" x="-0.059" y="8.407" drill="2" diameter="3.5" shape="offset" rot="R270"/>
+<pad name="P$6" x="4.141" y="8.407" drill="2" diameter="3.5" shape="offset" rot="R270"/>
 <wire x1="-6.859" y1="5.707" x2="6.941" y2="5.707" width="0.1524" layer="51"/>
 <wire x1="6.941" y1="5.707" x2="6.941" y2="4.307" width="0.1524" layer="51"/>
 <wire x1="6.941" y1="4.307" x2="6.941" y2="-7.093" width="0.1524" layer="21"/>
@@ -1246,6 +1246,21 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="-6.859" y1="4.307" x2="6.941" y2="4.307" width="0.1524" layer="21"/>
 <hole x="-4.259" y="0.007" drill="3.1"/>
 <hole x="4.141" y="0.007" drill="3.1"/>
+<pad name="P$7" x="-4.259" y="7.307" drill="2"/>
+<wire x1="-5.25" y1="7.37" x2="-5.24" y2="8.42" width="0.01" layer="46"/>
+<wire x1="-5.24" y1="8.42" x2="-3.27" y2="8.36" width="0.01" layer="46" curve="-182.57969"/>
+<wire x1="-3.27" y1="8.36" x2="-3.27" y2="7.36" width="0.01" layer="46" curve="6.068366"/>
+<wire x1="-3.27" y1="7.36" x2="-5.25" y2="7.37" width="0" layer="46" curve="-186.64702"/>
+<pad name="P$8" x="-0.059" y="7.307" drill="2"/>
+<pad name="P$9" x="4.141" y="7.307" drill="2"/>
+<wire x1="-1.06" y1="7.33" x2="0.93" y2="7.4" width="0" layer="46" curve="185.654088"/>
+<wire x1="0.93" y1="7.4" x2="0.93" y2="8.33" width="0" layer="46" curve="-9.125165"/>
+<wire x1="0.93" y1="8.33" x2="-1.05" y2="8.36" width="0" layer="46" curve="186.798792"/>
+<wire x1="-1.05" y1="8.36" x2="-1.06" y2="7.33" width="0" layer="46" curve="-6.175182"/>
+<wire x1="3.15" y1="8.41" x2="3.15" y2="7.31" width="0" layer="46"/>
+<wire x1="3.15" y1="7.31" x2="5.13" y2="7.33" width="0" layer="46" curve="181.15745"/>
+<wire x1="5.13" y1="7.33" x2="5.13" y2="8.39" width="0" layer="46" curve="-2.314546"/>
+<wire x1="5.13" y1="8.39" x2="3.15" y2="8.41" width="0" layer="46" curve="181.157088"/>
 </package>
 <package name="MOLEX-2H">
 <pad name="P$1" x="-0.04" y="0.05" drill="2" diameter="3.5" shape="offset" rot="R270"/>
@@ -1378,10 +1393,18 @@ Source: http://www.molex.com</description>
 <wire x1="2.1" y1="6.3" x2="2.1" y2="4.6" width="0.254" layer="51"/>
 <pad name="1" x="2.1" y="-2.75" drill="1.4" diameter="3"/>
 <pad name="2" x="-2.1" y="-2.75" drill="1.4" diameter="3"/>
-<pad name="4" x="-2.1" y="2.75" drill="1.4" diameter="3"/>
-<pad name="3" x="2.1" y="2.75" drill="1.4" diameter="3"/>
-<text x="-1.27" y="-6.985" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81" y="6.985" size="1.27" layer="27">&gt;VALUE</text>
+<text x="5.73" y="10.015" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.81" y="9.985" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-2.8" y1="1.4" x2="-2.8" y2="2.8" width="0.05" layer="46"/>
+<wire x1="-2.8" y1="2.8" x2="-1.4" y2="2.8" width="0.05" layer="46" curve="-180"/>
+<wire x1="-1.4" y1="2.8" x2="-1.4" y2="1.4" width="0.05" layer="46"/>
+<wire x1="-2.8" y1="1.4" x2="-1.4" y2="1.4" width="0.05" layer="46" curve="180"/>
+<wire x1="1.4" y1="1.4" x2="1.4" y2="2.8" width="0.05" layer="46"/>
+<wire x1="1.4" y1="2.8" x2="2.8" y2="2.8" width="0.05" layer="46" curve="-180"/>
+<wire x1="2.8" y1="2.8" x2="2.8" y2="1.4" width="0.05" layer="46"/>
+<wire x1="1.4" y1="1.4" x2="2.8" y2="1.4" width="0.05" layer="46" curve="180"/>
+<pad name="4" x="-2.1" y="1.45" drill="1.4" diameter="2" shape="offset" rot="R90"/>
+<pad name="3" x="2.1" y="1.45" drill="1.4" diameter="2" shape="offset" rot="R90"/>
 </package>
 <package name="W237-103">
 <wire x1="4.093" y1="-0.985" x2="5.897" y2="0.971" width="0.254" layer="51"/>
@@ -1493,8 +1516,8 @@ Source: http://www.molex.com</description>
 <pad name="6" x="7.5" y="0" drill="1" diameter="1.5"/>
 </package>
 <package name="MOLEX-2X2H">
-<pad name="P$1" x="-2" y="-7.3" drill="2" diameter="3.2" shape="offset" rot="R90"/>
-<pad name="P$2" x="2.2" y="-7.3" drill="2" diameter="3.2" shape="offset" rot="R90"/>
+<pad name="P$11" x="-2" y="-8.4" drill="2" diameter="3.2" shape="offset" rot="R90"/>
+<pad name="P$2" x="2.2" y="-8.4" drill="2" diameter="3.2" shape="offset" rot="R90"/>
 <pad name="P$3" x="-2" y="-12.8" drill="2" diameter="3.2" shape="offset" rot="R270"/>
 <pad name="P$4" x="2.2" y="-12.8" drill="2" diameter="3.2" shape="offset" rot="R270"/>
 <hole x="0" y="0" drill="2.2"/>
@@ -1505,6 +1528,16 @@ Source: http://www.molex.com</description>
 <wire x1="-4.7" y1="-6.2" x2="4.9" y2="-6.2" width="0.127" layer="21"/>
 <wire x1="-4.7" y1="6.6" x2="4.9" y2="6.6" width="0.127" layer="21"/>
 <wire x1="-4.7" y1="5.7" x2="4.9" y2="5.7" width="0.127" layer="21"/>
+<pad name="P$1" x="-2" y="-7.3" drill="1.4"/>
+<pad name="P$5" x="2.2" y="-7.3" drill="1.4"/>
+<wire x1="-2.996" y1="-7.306" x2="-2.988" y2="-8.406" width="0" layer="46"/>
+<wire x1="-2.988" y1="-8.406" x2="-1.009" y2="-8.389" width="0" layer="46" curve="181.15745"/>
+<wire x1="-1.009" y1="-8.389" x2="-1.017" y2="-7.319" width="0" layer="46" curve="-2.314546"/>
+<wire x1="-1.017" y1="-7.319" x2="-2.996" y2="-7.306" width="0" layer="46" curve="181.735741"/>
+<wire x1="1.213" y1="-7.342" x2="1.216" y2="-8.404" width="0" layer="46"/>
+<wire x1="1.216" y1="-8.404" x2="3.193" y2="-8.382" width="0" layer="46" curve="181.15745"/>
+<wire x1="3.193" y1="-8.382" x2="3.19" y2="-7.32" width="0" layer="46" curve="-2.314546"/>
+<wire x1="3.19" y1="-7.32" x2="1.213" y2="-7.342" width="0" layer="46" curve="183.472132"/>
 </package>
 <package name="X50VL">
 <pad name="4" x="0" y="0" drill="2" diameter="3.5"/>
@@ -2246,7 +2279,7 @@ Source: http://www.molex.com</description>
 </device>
 <device name="MOLEX-2X2H" package="MOLEX-2X2H">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="1" pad="P$11"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 <connect gate="G$1" pin="3" pad="P$3"/>
 <connect gate="G$1" pin="4" pad="P$4"/>
