@@ -513,7 +513,7 @@
 <pin name="ADJ/GND" x="0" y="-5.08" visible="off" length="short" direction="in" rot="R90"/>
 <pin name="OUT" x="7.62" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
-<symbol name="AP7381-28SA-7">
+<symbol name="AP7381">
 <pin name="VIN" x="-15.24" y="2.54" length="short"/>
 <pin name="VOUT" x="15.24" y="2.54" length="short" rot="R180"/>
 <pin name="GND" x="0" y="-10.16" length="short" rot="R90"/>
@@ -605,17 +605,6 @@
 <pin name="GND" x="-15.24" y="-5.08" length="middle" direction="pas"/>
 <pin name="SW" x="10.16" y="5.08" length="middle" direction="out" rot="R180"/>
 </symbol>
-<symbol name="AP7381-33Y-13">
-<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.1524" layer="94"/>
-<text x="-10.16" y="5.842" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="VIN" x="-15.24" y="2.54" length="middle" direction="in"/>
-<pin name="VOUT" x="15.24" y="2.54" length="middle" direction="out" rot="R180"/>
-<pin name="GND" x="15.24" y="-2.54" length="middle" direction="pwr" rot="R180"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LM3481" prefix="U" uservalue="yes">
@@ -662,7 +651,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="REG/FIX" prefix="U">
+<deviceset name="REG/FIX" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="REG/FIX" x="0" y="0"/>
 </gates>
@@ -687,18 +676,11 @@
 <technology name=""/>
 </technologies>
 </device>
-</devices>
-</deviceset>
-<deviceset name="AP7381-28SA-7" prefix="U">
-<gates>
-<gate name="G$1" symbol="AP7381-28SA-7" x="0" y="0"/>
-</gates>
-<devices>
-<device name="AP7381-28SA-7" package="SOT23">
+<device name="SOT-23" package="SOT23">
 <connects>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="VIN" pad="1"/>
-<connect gate="G$1" pin="VOUT" pad="2"/>
+<connect gate="G$1" pin="ADJ/GND" pad="3"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -841,32 +823,6 @@
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="AP7381-33Y-13" prefix="U">
-<description>MCP1702 Series 250 mA 3.3 V Fixed Output Surface Mount LDO Regulator - SOT-89 &lt;a href="https://pricing.snapeda.com/parts/MCP1702T-3302E/MB/Microchip/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="AP7381-33Y-13" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT-89">
-<connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="VIN" pad="2"/>
-<connect gate="G$1" pin="VOUT" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Warning"/>
-<attribute name="DESCRIPTION" value=" MCP1702 Series 250 mA 3.3 V Fixed Output Surface Mount LDO Regulator - SOT-89 "/>
-<attribute name="MF" value="Microchip"/>
-<attribute name="MP" value="MCP1702T-3302E/MB"/>
-<attribute name="PACKAGE" value="SOT-89 Microchip"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MCP1702T-3302E/MB/?ref=eda"/>
-</technology>
 </technologies>
 </device>
 </devices>
