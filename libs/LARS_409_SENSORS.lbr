@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -64,7 +64,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -226,6 +226,42 @@
 <smd name="23" x="-0.6" y="1.545" dx="0.64" dy="0.22" layer="1" roundness="25" rot="R270"/>
 <smd name="24" x="-1" y="1.545" dx="0.64" dy="0.22" layer="1" roundness="25" rot="R270"/>
 </package>
+<package name="HTU21D(F)">
+<smd name="GND2" x="0" y="0" dx="2.4" dy="1.25" layer="1"/>
+<smd name="NC1" x="1" y="1.5" dx="0.7" dy="0.4" layer="1" rot="R270"/>
+<smd name="GND1" x="0" y="1.5" dx="0.7" dy="0.4" layer="1" rot="R270"/>
+<smd name="DATA" x="-1" y="1.5" dx="0.7" dy="0.4" layer="1" rot="R270"/>
+<smd name="NC2" x="1" y="-1.5" dx="0.7" dy="0.4" layer="1" rot="R270"/>
+<smd name="VDD" x="0" y="-1.5" dx="0.7" dy="0.4" layer="1" rot="R270"/>
+<smd name="SCK" x="-1" y="-1.5" dx="0.7" dy="0.4" layer="1" rot="R270"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.1524" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1524" layer="51"/>
+<wire x1="1.7" y1="2.1" x2="1.7" y2="-2.1" width="0.127" layer="39"/>
+<wire x1="1.7" y1="-2.1" x2="-1.7" y2="-2.1" width="0.127" layer="39"/>
+<wire x1="-1.7" y1="-2.1" x2="-1.7" y2="2.1" width="0.127" layer="39"/>
+<wire x1="-1.7" y1="2.1" x2="1.7" y2="2.1" width="0.127" layer="39"/>
+<circle x="-1.6" y="2" radius="0.1" width="0.127" layer="21"/>
+</package>
+<package name="AHT10">
+<smd name="ADR" x="-1.6" y="1.27" dx="1.27" dy="1" layer="1"/>
+<smd name="SDA" x="-1.6" y="0" dx="1.27" dy="1" layer="1"/>
+<smd name="SCL" x="-1.6" y="-1.27" dx="1.27" dy="1" layer="1"/>
+<smd name="VDD" x="1.6" y="-1.27" dx="1.27" dy="1" layer="1"/>
+<smd name="GND" x="1.6" y="0" dx="1.27" dy="1" layer="1"/>
+<smd name="NC" x="1.6" y="1.27" dx="1.27" dy="1" layer="1"/>
+<wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="-2" y1="-2.5" x2="2" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="-2" y1="2.5" x2="-2" y2="-2.5" width="0.1524" layer="51"/>
+<wire x1="2" y1="2.5" x2="2" y2="-2.5" width="0.1524" layer="51"/>
+<circle x="-2.4" y="2.7" radius="0.1778" width="0.1524" layer="21"/>
+<wire x1="-2.5" y1="2.8" x2="2.5" y2="2.8" width="0.1524" layer="39"/>
+<wire x1="2.5" y1="2.8" x2="2.5" y2="-2.7" width="0.1524" layer="39"/>
+<wire x1="2.5" y1="-2.7" x2="-2.5" y2="-2.7" width="0.1524" layer="39"/>
+<wire x1="-2.5" y1="-2.7" x2="-2.5" y2="2.8" width="0.1524" layer="39"/>
+<text x="-1.6" y="3" size="0.6096" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="BME280">
@@ -310,6 +346,41 @@
 <pin name="SDA/SDI" x="-20.32" y="0" length="middle"/>
 <pin name="AUX_CL" x="-20.32" y="-5.08" length="middle" direction="in" function="clk"/>
 <pin name="RESV_1" x="20.32" y="0" length="middle" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="HTU21D(F)">
+<pin name="SCK" x="-5.08" y="2.54" visible="pad" length="short"/>
+<pin name="DATA" x="-5.08" y="-2.54" visible="pad" length="short"/>
+<pin name="VDD" x="0" y="7.62" visible="pad" length="short" rot="R270"/>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="short" rot="R90"/>
+<wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="5.08" width="0.127" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="-2.54" y2="5.08" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.127" layer="94"/>
+<text x="0.254" y="-6.604" size="1.27" layer="97">GND</text>
+<text x="-6.35" y="3.81" size="1.27" layer="97">SCK</text>
+<text x="-7.112" y="-5.08" size="1.27" layer="97">DATA</text>
+<text x="0.254" y="5.334" size="1.27" layer="97">VDD</text>
+<text x="2.54" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.27" layer="95">&gt;VALUE</text>
+<text x="-0.508" y="3.048" size="1.27" layer="97" rot="R270">HTU21</text>
+</symbol>
+<symbol name="AHT10">
+<pin name="SDA" x="-5.08" y="5.08" visible="pad" length="short"/>
+<pin name="SCL" x="-5.08" y="0" visible="pad" length="short"/>
+<pin name="ADR" x="-5.08" y="-5.08" visible="pad" length="short"/>
+<pin name="GND" x="0" y="-10.16" visible="pad" length="short" rot="R90"/>
+<pin name="VDD" x="0" y="10.16" visible="pad" length="short" rot="R270"/>
+<wire x1="-2.54" y1="7.62" x2="2.54" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="-2.54" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="7.62" width="0.1524" layer="94"/>
+<text x="2.54" y="2.54" size="1.4224" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.4224" layer="96">&gt;VALUE</text>
+<text x="0.508" y="7.874" size="1.4224" layer="97">VDD</text>
+<text x="-6.858" y="6.096" size="1.4224" layer="97">SDA</text>
+<text x="-6.604" y="0.508" size="1.4224" layer="97">SCL</text>
+<text x="-6.858" y="-4.826" size="1.4224" layer="97">ADR</text>
+<text x="0.254" y="-9.144" size="1.4224" layer="97">GND</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -444,6 +515,43 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <attribute name="PACKAGE" value="TFQFN-24 TDK InvenSense"/>
 <attribute name="PRICE" value="None"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HTU21D(F)" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="HTU21D(F)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HTU21D(F)">
+<connects>
+<connect gate="G$1" pin="DATA" pad="DATA"/>
+<connect gate="G$1" pin="GND" pad="GND1 GND2"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="VDD" pad="VDD"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AHT10" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="AHT10" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AHT10">
+<connects>
+<connect gate="G$1" pin="ADR" pad="ADR"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="VDD" pad="VDD"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
