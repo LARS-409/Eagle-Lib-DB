@@ -348,10 +348,10 @@
 <pin name="RESV_1" x="20.32" y="0" length="middle" direction="pas" rot="R180"/>
 </symbol>
 <symbol name="HTU21D(F)">
-<pin name="SCK" x="-5.08" y="2.54" visible="pad" length="short"/>
-<pin name="DATA" x="-5.08" y="-2.54" visible="pad" length="short"/>
-<pin name="VDD" x="0" y="7.62" visible="pad" length="short" rot="R270"/>
-<pin name="GND" x="0" y="-7.62" visible="pad" length="short" rot="R90"/>
+<pin name="SCK" x="-5.08" y="2.54" visible="off" length="short"/>
+<pin name="DATA" x="-5.08" y="-2.54" visible="off" length="short"/>
+<pin name="VDD" x="0" y="7.62" visible="off" length="short" rot="R270"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="short" rot="R90"/>
 <wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.127" layer="94"/>
 <wire x1="2.54" y1="-5.08" x2="2.54" y2="5.08" width="0.127" layer="94"/>
 <wire x1="2.54" y1="5.08" x2="-2.54" y2="5.08" width="0.127" layer="94"/>
@@ -365,11 +365,11 @@
 <text x="-0.508" y="3.048" size="1.27" layer="97" rot="R270">HTU21</text>
 </symbol>
 <symbol name="AHT10">
-<pin name="SDA" x="-5.08" y="5.08" visible="pad" length="short"/>
-<pin name="SCL" x="-5.08" y="0" visible="pad" length="short"/>
-<pin name="ADR" x="-5.08" y="-5.08" visible="pad" length="short"/>
-<pin name="GND" x="0" y="-10.16" visible="pad" length="short" rot="R90"/>
-<pin name="VDD" x="0" y="10.16" visible="pad" length="short" rot="R270"/>
+<pin name="SDA" x="-5.08" y="5.08" visible="off" length="short"/>
+<pin name="SCL" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="ADR" x="-5.08" y="-5.08" visible="off" length="short"/>
+<pin name="GND" x="0" y="-10.16" visible="off" length="short" rot="R90"/>
+<pin name="VDD" x="0" y="10.16" visible="off" length="short" rot="R270"/>
 <wire x1="-2.54" y1="7.62" x2="2.54" y2="7.62" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="7.62" x2="2.54" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="-7.62" x2="-2.54" y2="-7.62" width="0.1524" layer="94"/>
@@ -381,6 +381,7 @@
 <text x="-6.604" y="0.508" size="1.4224" layer="97">SCL</text>
 <text x="-6.858" y="-4.826" size="1.4224" layer="97">ADR</text>
 <text x="0.254" y="-9.144" size="1.4224" layer="97">GND</text>
+<text x="0.762" y="-3.81" size="1.778" layer="97" rot="R90">AHT10</text>
 </symbol>
 </symbols>
 <devicesets>
