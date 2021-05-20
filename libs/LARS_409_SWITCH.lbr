@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -158,10 +158,10 @@
 <wire x1="3.048" y1="0.998" x2="3.048" y2="-1.016" width="0.2032" layer="21"/>
 <wire x1="-3.048" y1="1.028" x2="-3.048" y2="-1.016" width="0.2032" layer="21"/>
 <circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
-<pad name="1" x="-3.25" y="2.25" drill="1.016" diameter="1.8796" shape="long"/>
-<pad name="2" x="3.25" y="2.26" drill="1.016" diameter="1.8796" shape="long"/>
-<pad name="3" x="-3.25" y="-2.25" drill="1.016" diameter="1.8796" shape="long"/>
-<pad name="4" x="3.25" y="-2.25" drill="1.016" diameter="1.8796" shape="long"/>
+<pad name="1" x="-3.25" y="2.25" drill="1.016" diameter="1.6764" shape="offset"/>
+<pad name="2" x="3.1" y="2.185" drill="1.016" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="3" x="-3.25" y="-2.25" drill="1.016" diameter="1.6764" shape="offset"/>
+<pad name="4" x="3.1" y="-2.195" drill="1.016" diameter="1.6764" shape="offset" rot="R180"/>
 <wire x1="-1" y1="3" x2="1" y2="3" width="0.1524" layer="21"/>
 <wire x1="-1" y1="-3" x2="1" y2="-3" width="0.1524" layer="21"/>
 <text x="-4.064" y="3.81" size="1.778" layer="25">&gt;NAME</text>
