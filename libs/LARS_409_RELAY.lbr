@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.24" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -135,42 +135,41 @@
 <wire x1="-12.07" y1="-0.03" x2="-13.07" y2="-0.03" width="0.1524" layer="21"/>
 </package>
 <package name="BS-901AS">
-<wire x1="19.4" y1="-21.7" x2="-0.3" y2="-21.7" width="0.508" layer="22"/>
-<wire x1="-0.3" y1="-21.7" x2="-0.3" y2="-2.6" width="0.508" layer="22"/>
-<wire x1="-0.3" y1="-2.6" x2="-5.3" y2="-2.6" width="0.508" layer="22"/>
-<wire x1="-5.3" y1="-2.6" x2="-5.3" y2="10.1" width="0.508" layer="22"/>
-<wire x1="-5.3" y1="10.1" x2="21.7" y2="10.1" width="0.508" layer="22"/>
-<wire x1="21.7" y1="10.1" x2="21.7" y2="-7.4" width="0.508" layer="22"/>
-<wire x1="21.7" y1="-7.4" x2="19.4" y2="-7.4" width="0.508" layer="22"/>
-<wire x1="19.4" y1="-7.4" x2="19.4" y2="-21.7" width="0.508" layer="22"/>
-<pad name="4" x="0" y="0" drill="2.3" diameter="3.81" shape="long" rot="R90"/>
-<pad name="3.2" x="17.8" y="-2.54" drill="2.3" diameter="3.81" shape="long" rot="R90"/>
-<pad name="3.1" x="9" y="-17.78" drill="2.3" diameter="3.81" shape="long" rot="R90"/>
-<pad name="1" x="4" y="-15.24" drill="1.3" diameter="2.54" rot="R90"/>
-<pad name="2" x="14" y="-15.24" drill="1.3" diameter="2.54" rot="R90"/>
-<text x="7.77" y="-6.46" size="1.27" layer="26" rot="R90">&gt;NAME</text>
-<text x="10.31" y="-6.46" size="1.27" layer="28" rot="R90">&gt;VALUE</text>
-<wire x1="9.04" y1="-17.89" x2="17.6" y2="-17.89" width="0.4064" layer="22" style="shortdash"/>
-<wire x1="17.6" y1="-17.89" x2="17.6" y2="-2.142" width="0.4064" layer="22" style="shortdash"/>
-<wire x1="17.6" y1="-2.142" x2="17.63" y2="-2.142" width="0.4064" layer="22" style="shortdash"/>
-<wire x1="17.63" y1="-2.142" x2="17.63" y2="6.483" width="0.4064" layer="22" style="shortdash"/>
-<wire x1="17.63" y1="6.483" x2="7.6" y2="6.5" width="0.4064" layer="22" style="shortdash"/>
-<wire x1="7.6" y1="6.5" x2="1.702" y2="8.283" width="0.4064" layer="22" style="shortdash"/>
-<wire x1="0.2" y1="0.3" x2="5.2" y2="0.3" width="0.4064" layer="22" style="dashdot"/>
-<wire x1="5.2" y1="0.3" x2="5.2" y2="5.3" width="0.4064" layer="22" style="dashdot"/>
-<wire x1="3.7" y1="-13.6" x2="3.7" y2="-10.6" width="0.4064" layer="22" style="dashdot"/>
-<wire x1="3.7" y1="-10.6" x2="6" y2="-10.6" width="0.4064" layer="22" style="dashdot"/>
-<wire x1="6" y1="-10.6" x2="6" y2="-8.6" width="0.4064" layer="22" style="dashdot"/>
-<wire x1="6" y1="-8.6" x2="7" y2="-8.6" width="0.4064" layer="22" style="dashdot"/>
-<wire x1="7" y1="-8.6" x2="11" y2="-8.6" width="0.4064" layer="22" style="dashdot"/>
-<wire x1="11" y1="-8.6" x2="11" y2="-10.6" width="0.4064" layer="22" style="dashdot"/>
-<wire x1="11" y1="-10.6" x2="11" y2="-12.6" width="0.4064" layer="22" style="dashdot"/>
-<wire x1="11" y1="-12.6" x2="10" y2="-12.6" width="0.4064" layer="22" style="dashdot"/>
-<wire x1="10" y1="-12.6" x2="6" y2="-12.6" width="0.4064" layer="22" style="dashdot"/>
-<wire x1="6" y1="-12.6" x2="6" y2="-10.6" width="0.4064" layer="22" style="dashdot"/>
-<wire x1="11" y1="-10.6" x2="13.8" y2="-10.6" width="0.4064" layer="22" style="dashdot"/>
-<wire x1="13.8" y1="-10.6" x2="13.8" y2="-13.6" width="0.4064" layer="22" style="dashdot"/>
-<wire x1="10" y1="-12.6" x2="7" y2="-8.6" width="0.4064" layer="22" style="dashdot"/>
+<wire x1="0.16" y1="0" x2="0.16" y2="19.7" width="0.508" layer="22"/>
+<wire x1="0.16" y1="19.7" x2="19.66" y2="19.7" width="0.508" layer="22"/>
+<wire x1="19.66" y1="19.7" x2="19.66" y2="24.5" width="0.508" layer="22"/>
+<wire x1="19.66" y1="24.5" x2="32.46" y2="24.5" width="0.508" layer="22"/>
+<wire x1="32.46" y1="24.5" x2="32.46" y2="-2.7" width="0.508" layer="22"/>
+<wire x1="32.46" y1="-2.7" x2="14.86" y2="-2.7" width="0.508" layer="22"/>
+<wire x1="14.86" y1="-2.7" x2="14.86" y2="0" width="0.508" layer="22"/>
+<wire x1="14.86" y1="0" x2="0.16" y2="0" width="0.508" layer="22"/>
+<pad name="4" x="22.26" y="19.2" drill="2.3" diameter="3.81" shape="long"/>
+<pad name="3.2" x="19.72" y="1.4" drill="2.3" diameter="3.81" shape="long"/>
+<pad name="3.1" x="4.32" y="10.3" drill="2.3" diameter="3.81" shape="long"/>
+<pad name="1" x="6.86" y="15.4" drill="1.3" diameter="2.54"/>
+<pad name="2" x="6.86" y="5.2" drill="1.3" diameter="2.54"/>
+<text x="15.64" y="11.63" size="1.27" layer="26">&gt;NAME</text>
+<text x="15.64" y="9.09" size="1.27" layer="28">&gt;VALUE</text>
+<wire x1="4.21" y1="10.36" x2="4.21" y2="1.8" width="0.4064" layer="22" style="shortdash"/>
+<wire x1="4.21" y1="1.8" x2="19.958" y2="1.8" width="0.4064" layer="22" style="shortdash"/>
+<wire x1="19.958" y1="1.8" x2="19.958" y2="1.77" width="0.4064" layer="22" style="shortdash"/>
+<wire x1="19.958" y1="1.77" x2="28.583" y2="1.77" width="0.4064" layer="22" style="shortdash"/>
+<wire x1="28.583" y1="1.77" x2="28.6" y2="11.8" width="0.4064" layer="22" style="shortdash"/>
+<wire x1="28.6" y1="11.8" x2="30.383" y2="17.698" width="0.4064" layer="22" style="shortdash"/>
+<wire x1="22.4" y1="14.2" x2="27.4" y2="14.2" width="0.4064" layer="22" style="dashdot"/>
+<wire x1="8.5" y1="15.7" x2="11.5" y2="15.7" width="0.4064" layer="22" style="dashdot"/>
+<wire x1="11.5" y1="15.7" x2="11.5" y2="13.4" width="0.4064" layer="22" style="dashdot"/>
+<wire x1="11.5" y1="13.4" x2="13.5" y2="13.4" width="0.4064" layer="22" style="dashdot"/>
+<wire x1="13.5" y1="13.4" x2="13.5" y2="12.4" width="0.4064" layer="22" style="dashdot"/>
+<wire x1="13.5" y1="12.4" x2="13.5" y2="8.4" width="0.4064" layer="22" style="dashdot"/>
+<wire x1="13.5" y1="8.4" x2="11.5" y2="8.4" width="0.4064" layer="22" style="dashdot"/>
+<wire x1="11.5" y1="8.4" x2="9.5" y2="8.4" width="0.4064" layer="22" style="dashdot"/>
+<wire x1="9.5" y1="8.4" x2="9.5" y2="9.4" width="0.4064" layer="22" style="dashdot"/>
+<wire x1="9.5" y1="9.4" x2="9.5" y2="13.4" width="0.4064" layer="22" style="dashdot"/>
+<wire x1="9.5" y1="13.4" x2="11.5" y2="13.4" width="0.4064" layer="22" style="dashdot"/>
+<wire x1="11.5" y1="8.4" x2="11.5" y2="5.6" width="0.4064" layer="22" style="dashdot"/>
+<wire x1="11.5" y1="5.6" x2="8.5" y2="5.6" width="0.4064" layer="22" style="dashdot"/>
+<wire x1="9.5" y1="9.4" x2="13.5" y2="12.4" width="0.4064" layer="22" style="dashdot"/>
 </package>
 <package name="HF33F/012-ZS3F">
 <wire x1="0" y1="0" x2="0" y2="10.2" width="0.2" layer="21"/>
