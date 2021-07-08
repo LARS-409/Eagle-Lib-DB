@@ -83,6 +83,12 @@
 <pad name="-" x="-7.493" y="0" drill="1.016" diameter="2.54" shape="octagon"/>
 <pad name="+" x="7.493" y="0" drill="1.016" diameter="2.54" shape="octagon"/>
 </package>
+<package name="HPA17A">
+<circle x="0" y="0" radius="8.25" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1" width="0.127" layer="21"/>
+<pad name="1" x="-5.5" y="0" drill="1.2" diameter="2"/>
+<pad name="2" x="5.5" y="0" drill="1.2" diameter="2"/>
+</package>
 </packages>
 <symbols>
 <symbol name="B2P">
@@ -136,6 +142,22 @@
 <attribute name="PACKAGE" value="None"/>
 <attribute name="PRICE" value="None"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HPA17A">
+<gates>
+<gate name="G$1" symbol="B2P" x="2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="HPA17A">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
